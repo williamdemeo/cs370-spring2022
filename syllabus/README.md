@@ -74,7 +74,7 @@ Students will learn
 ### Required
 We will use the following textbooks in this class.
 
-<a target="_blank"  href="https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=34b3f9acb98e99a2cf857ff78a454bb8"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0134610997&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=typefunc-20" ></a>
+<a target="_blank"  href="https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=34b3f9acb98e99a2cf857ff78a454bb8"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0134610997&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=typefunc-20" ></a>
 
 <a target="_blank" href="https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=7b927a65ec495610d347f7c2d096ef14">Artificial Intelligence: A Modern Approach, 4th Edition</a>
 
