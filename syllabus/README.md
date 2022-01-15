@@ -252,8 +252,8 @@ The undergraduate tutoring schedule is available at [computing.njit.edu/undergra
 You may email the instructor directly, though the response time might be a slower than if you use one of the preferred methods described above.
 
 If you email the instructor, please use an informative subject field. Using 
-[this link](mailto:williamdemeo@gmail.com?subject=CS 370: (fill in subject here)&body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)) will populate your message fields with some of the required information.  
-If you do not at least indicate which class you are in, your email will be at risk of going unanswered.
+<a href="mailto:williamdemeo@gmail.com?subject=CS 370: (fill in subject here)&body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)">this link</a> will populate your message fields with some of the 
+required information. If you do not at least indicate which class you are in, your email will be at risk of going unanswered.
 
 ---------------------------------------------
 
