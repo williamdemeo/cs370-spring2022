@@ -1,4 +1,4 @@
-## CS 370: Introduction to Artificial Intelligence
+## CS 370: Introduction to Artificial Intelligence (Section 004)
 
 ### NJIT Spring 2022
 
@@ -6,10 +6,10 @@
 
 ## Lecture Information
 
-**Lecture Times and Location**. 10--11:20pm Tuesdays and Fridays in [XX ADD LOCATION XX][]  
-**Final Exam Date and Time**. XXXX ADD DATE/TIME of FINAL EXAM XXXX  
+**Lecture Times and Location**. 10--11:20am Tue & Fri in [KUPF 107][]  
+**Final Exam Date and Time**. TBA  
 **Course Webpage**. [github.com/williamdemeo/cs370-spring2022](https://github.com/williamdemeo/cs370-spring2022)\
-**Canvass Webpage**. [XXXX ADD LINK TO CANVAS SITE XXXX](https://)  
+**Canvass Webpage**. TBA  
 **Course Schedule**. 
 [github.com/williamdemeo/cs370-spring2022/schedule](https://github.com/williamdemeo/cs370-spring2022/tree/master/schedule)
 
@@ -18,11 +18,11 @@
 ## Instructor Information
 **Instructor**.  Dr. William DeMeo   
 **Email**. [williamdemeo at gmail](mailto:williamdemeo@gmail.com?subject=CS370: (replace-this-text-with-informative-subject-description))    
-**Office**. XXXX ADD OFFICE LOCATION XXXX   
-**Office hours**. XXXX ADD OFFICE HOURS XXXX
+**Office**. TBA  
+**Office hours**. TBA  
 
 **Remarks about office hours**.
-The regularly scheduled office hours listed above are subject to change.
+The regularly scheduled office hours are subject to change.
 Changes will be announced during lecture. It is helpful, though not required, to
 <a href="mailto:williamdemeo@gmail.com?subject=CS370:office-hours-visit">send an email</a> in advance to let the instructor know if/when you plan to attend office hours.
 
@@ -59,36 +59,41 @@ An exploration of concepts, approaches and techniques of artificial intelligence
 
 *Prerequisite:* [CS 114](https://catalog.njit.edu/search/?P=CS%20114) and ([MATH 226](https://catalog.njit.edu/search/?P=MATH%20226) or [CS 241](https://catalog.njit.edu/search/?P=CS%20241)).
 
-### Learning Outcomes
-
-Students will learn 
-+ XXXX ADD LEARNING OUTCOMES XXXX
-+ XXXX ADD LEARNING OUTCOMES XXXX
-+ XXXX ADD LEARNING OUTCOMES XXXX
-
-
 --------------------------------------------------------------------
 
-## Textbook Information
+## Reading Materials
 
-### Required
-We will use the following textbooks in this class.
+### Textbook (required)
+
+Students are expected to have access to the following textbook:
 
 <a target="_blank"  href="https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=34b3f9acb98e99a2cf857ff78a454bb8"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0134610997&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=typefunc-20" ></a>
 
-<a target="_blank" href="https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=7b927a65ec495610d347f7c2d096ef14">Artificial Intelligence: A Modern Approach, 4th Edition</a>
+[Artificial Intelligence: A Modern Approach, 4th Edition](https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=7b927a65ec495610d347f7c2d096ef14)
 
 **ISBN**. 9780134610993  
 **Author**. Russell  
 **Publisher**. Pearson  
 **Year**. 2020
 
-### Optional References
+
+### Other Resources (optional)
+
 These are not required but might be helpful.
 
-[Logic and Proof](https://leanprover.github.io/logic_and_proof/) by Avigad, Lewis, and van Doorn [(pdf)](https://github.com/williamdemeo/cs370-spring2022/blob/master/books/logic_and_proof_cu-edition.pdf)
++  **Online courses on Udemy**
 
-Students are expected to have access to the textbook. 
+   + [Curiosity Driven Deep Reinforcement Learning](https://www.udemy.com/course/curiosity-driven-deep-reinforcement-learning/)
+   + [Natural Language Processing](https://www.udemy.com/course/natural-language-processing-from-first-principles/)
+   + [Apache Spark with Scala](https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/)
+
++  **Papers**
+
+   + [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) by Mikolov, et al. (the Word2vec paper)
+   + [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783v2) by Mnih, et al.
+   + [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/abs/1705.05363) by Pathak, et al.
+
+
 
 -----------------------------------
 
@@ -108,6 +113,7 @@ Occasionally attendance will be recorded by passing around a sign-in sheet on wh
 ---
 
 ## Code of Conduct
+
 Students must abide by [the university's code of conduct](https://www.njit.edu/dos/policies/conductcode/index.php).
 In particular, cheating is unacceptable and will not be tolerated. Violations of this policy will be dealt with in a manner consistent with university regulations, which range from a warning to expulsion from the university.
 
@@ -115,13 +121,13 @@ In particular, cheating is unacceptable and will not be tolerated. Violations of
 
 ## Use of Electronics During Lecture
 
-**Use of electronic devices in lecture for purposes unrelated to the course material will not be tolerated**.
+**Use of electronic devices in lecture for purposes unrelated to the course will not be tolerated.**
 
-**Laptops may be used in the classroom only for work related to the course**.
+**Laptops may be used in the classroom only for work related to this course.**
 
-All students must silence, and refrain from using, all electronic devices (phones, ipods, tablets, microwave ovens, etc.) during all lectures and exam periods. There is only one exception to this rule: a laptop or tablet may be used for, and only for, doing something directly related to the course material. 
+As a general rule, students should silence and refrain from using all electronic devices (phones, ipods, tablets, microwave ovens, etc.) during all lectures and exam periods. There is only one exception to this rule: a laptop  or tablet may be used for, and only for, working on something related to the course material. 
 
-Instagramming, Facebooking, Tindering, Tweeting, Tiktoking, YouTubing and gaming are strictly forbidden during class.  Students should also refrain from emailing during class.  Such activities make it hard or impossible to concentrate on the lecture and they can be very distracting to the lecturer and other students.  Any student who does not respect this policy will be asked to leave the classroom.
+Tiktoking, Tweeting, Tindering, Facebooking, Instagramming, Snapchatting, Whatsapping, YouTubing, and gaming are forbidden in the classroom.  Students should also refrain from emailing during class.  Such activities make it hard, if not impossible, for the student to concentrate on the lecture and can also be very distracting to the lecturer and other students.  Anyone who does not respect this policy will be asked to leave the classroom.
 
 ---
 
@@ -154,19 +160,19 @@ performance.
 -----------------------------------
 ## Exams
 
-**All exams take place in our usual classroom**, [XXXX ADD CLASSROOM LOCATION XXXX][].
+**All exams take place in our usual classroom**, [KUPF 107][].
 
 + **MIDTERM EXAM 1**  
-**Topics**. Chs XXXX ADD INFO XXXX
-**DATE**.  XXXX ADD INFO XXXX
+**Topics**. TBA  
+**DATE**. TBA
   
 + **MIDTERM EXAM 2**  
-**Topics**. Chs XXXX ADD INFO XXXX
-**DATE**. XXXX ADD INFO XXXX
+**Topics**. TBA  
+**DATE**. TBA
 
 + **FINAL EXAM** (cumulative)  
-**DATE**. XXXX ADD INFO XXXX
-**TIME**. XXXX ADD INFO XXXX
+**DATE**. TBA  
+**TIME**. TBA
 
 
 In accordance with university policy, **the final exam must be taken by all students at the scheduled time in the usual classroom.** *Do not make plans which would have you depart campus before the scheduled final exam date.*
@@ -224,14 +230,20 @@ you score a 90% on the final, then you will receive a 72% for the missed test
 Students are strongly encouraged to ask lots of questions.
 If you don't understand something, please ask!
 
-1. **In Lecture**. The best time/place to ask a question is during lecture or recitation or office hours.
+1. **In Lecture.** The best time/place to ask a question is during lecture or recitation or office hours.
 
-2. **On Canvas**. Another good place to ask a question is the online discussion
-   forum.
+2. **On Canvas.** Another good place to ask a question is the online discussion forum.  The Canvas system is designed to provide help quickly and efficiently.  Rather than emailing questions to the teaching staff, students are encouraged to post questions on Canvas.
 
-   This system is designed so that you can get help fast and efficiently from classmates or instructors.  Rather than emailing questions to the teaching staff, students are encouraged to post questions on Canvas.
+---------------------------------
 
-   The Canvas page for this class is [XXXX ADD INFO XXXX]()
+## Tutoring Service
+
+"YWCC and its ACM student chapter have partnered to create an online tutoring program available to undergraduate and graduate students looking for tutoring assistance."
+
+See [computing.njit.edu/tutoring](https://computing.njit.edu/tutoring) for more information.
+
+The undergraduate tutoring schedule is available at [computing.njit.edu/undergraduate-tutoring-1](https://computing.njit.edu/undergraduate-tutoring-1)
+
 
 ------------
 
@@ -239,9 +251,9 @@ If you don't understand something, please ask!
 
 You may email the instructor directly, though the response time might be a slower than if you use one of the preferred methods described above.
 
-If you email the instructor, you *must* use an informative subject field. If you use <a href="mailto:williamdemeo@gmail.com?subject=CS 370:
-(fill in subject here)&amp;body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)">this link</a>  to email the professor, then some of the required information should
-pre-populate your message fields.  If you do not at least indicate which class you are in, your email might go unanswered.
+If you email the instructor, please use an informative subject field. Using 
+[this link](mailto:williamdemeo@gmail.com?subject=CS 370: (fill in subject here)&body=Dear Dr. DeMeo, (your message) Sincerely, (your full name)) will populate your message fields with some of the required information.  
+If you do not at least indicate which class you are in, your email will be at risk of going unanswered.
 
 ---------------------------------------------
 
@@ -260,3 +272,4 @@ early in the semester in order to have their learning needs appropriately met.
 
 
 [Lean]: https://leanprover.github.io/
+[KUPF 107]: https://goo.gl/maps/GjhP3cjrMAJSzVFt5
