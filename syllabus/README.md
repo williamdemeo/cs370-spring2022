@@ -192,7 +192,7 @@ Here are some important facts about the homework policy in this class.
  
 The lowest (or missed) homework score will be dropped and not counted toward the final course grade.
 
-Descriptions of each homework assignment will be available in the homework directory of this repository.  You are strongly encouraged to start the homework early, so that you will have time to get help from the instructor or tutors in the MARC when you get stuck... and you will get stuck.
+Descriptions of each homework assignment will be available in the homework directory of this repository.  You are strongly encouraged to start the homework early, so that you will have time to get help from the instructor or [a tutor](#tutoring-service) if you need it.
 
 -----------------------------------
 
