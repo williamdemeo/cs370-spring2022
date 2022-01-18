@@ -71,18 +71,16 @@ This course will introduce the basic ideas and techniques underlying the design 
 By the end of this course, you will have built autonomous agents that efficiently make decisions in fully informed, partially observable and adversarial settings. Your agents will draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in this course apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.
 -->
 
-See [the syllabus](https://github.com/williamdemeo/cs370-spring2022/tree/master/syllabus) for slides, deadlines, and the lecture schedule.
-
-Readings refer to [the fourth edition of the required textbook (AIMA)](https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=7b927a65ec495610d347f7c2d096ef14) unless otherwise indicated.
 
 --------------------------------------------------------------------
 
 ## Schedule
 
-Please see the course syllabus.
+See [the syllabus](https://github.com/williamdemeo/cs370-spring2022/tree/master/syllabus) for slides, deadlines, and the lecture schedule.
 
+Readings refer to [the fourth edition of the required textbook (AIMA)](https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=7b927a65ec495610d347f7c2d096ef14) unless otherwise indicated.
 
-
+---------------------------------
 
 ## Reading Materials
 
