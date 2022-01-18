@@ -204,7 +204,7 @@ In accordance with university policy, **the final exam must be taken by all stud
 
 ## Homework
 
-The written homework assignments will account for 30% of the course grade and will be due every week on Friday by 10:59pm, as indicated in [the course syllabus](https://github.com/williamdemeo/cs370-spring2022/tree/master/syllabus).
+The written homework assignments will account for 30% of the course grade and will be due most weeks on Wednesday by 10:59pm, unless otherwise indicated.  See the tentative [course syllabus](https://github.com/williamdemeo/cs370-spring2022/tree/master/syllabus).
 
 The lowest (or missed) homework score will be dropped and not counted toward the final course grade.
 
@@ -242,7 +242,9 @@ you score a 90% on the final, then you will receive a 72% for the missed test
 (0.80*0.90 = 0.72).
 
 -----------------------------------------------------------
+
 ## Asking Questions
+
 Students are strongly encouraged to ask lots of questions.
 If you don't understand something, please ask!
 
