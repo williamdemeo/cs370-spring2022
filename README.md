@@ -76,7 +76,7 @@ By the end of this course, you will have built autonomous agents that efficientl
 
 ## Schedule
 
-See [the syllabus](https://github.com/williamdemeo/cs370-spring2022/tree/master/syllabus) for slides, deadlines, and the lecture schedule.
+See [the syllabus](https://github.com/williamdemeo/cs370-spring2022/tree/master/syllabus) for tentative lecture and homework schedule (subject to change).
 
 Readings refer to [the fourth edition of the required textbook (AIMA)](https://www.amazon.com/gp/product/0134610997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134610997&linkCode=as2&tag=typefunc-20&linkId=7b927a65ec495610d347f7c2d096ef14) unless otherwise indicated.
 

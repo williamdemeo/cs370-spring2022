@@ -2,12 +2,14 @@
 
 ### NJIT Spring 2022
 
+**Lecture Times and Location**. 10--11:20am Tue & Fri in [KUPF 107][]  
+**Course Webpage**. [github.com/williamdemeo/cs370-spring2022](https://github.com/williamdemeo/cs370-spring2022)
+
 ---
 
 ## Syllabus
 
-**Lecture Times and Location**. 10--11:20am Tue & Fri in [KUPF 107][]  
-**Course Webpage**. [github.com/williamdemeo/cs370-spring2022](https://github.com/williamdemeo/cs370-spring2022)\
+The *tentative* lecture and homework schedule shown below is subject to change.  Students should return to this page often throughout the semester to keep aprised of any modifications in the schedule or homework due dates.
 
 
 | **Week** | **Date** | **Topic**            | **Reading**     | **Homework**           |
