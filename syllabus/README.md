@@ -15,7 +15,7 @@
 | **1**    | 18 Jan   | Intro to AI          | Chs 1, 2        | HW 0. Math Diagnostic  |
 |          |          | Rational Agents      |                 | due Wed 26 Jan 10:59pm |
 |          | 21 Jan   | State Spaces         | §§3.1--3.4      |                        |
-|          | Uninformed Search    |                 |                        |
+|          |          | Uninformed Search    |                 |                        |
 | **2**    | 25 Jan   | Informed Search      | §§3.5, 3.6      | HW 1. Search           |
 |          |          | A* and Heuristics    |                 | due Wed 2 Feb 10:59pm  |
 |          | 28 Jan   | Local Search         | §§4.1, 4.2      |                        |
