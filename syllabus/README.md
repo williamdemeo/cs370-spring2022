@@ -25,7 +25,7 @@
 | **6**    | 22 Feb   | First-Order Logic I  | §§8.1--8.4      |                        |
 |          | 25 Feb   | First-Order Logic I  | §§9.1--9.4      |                        |
 | **7**    | 1 Mar    | Basic Probability    | Ch 12           | HW 5. Logic II; due Wed 9 Mar 10:59pm  |
-|          | 4 Mar    | EXAM 1 on material covered 18Jan--18Feb  |                 |                        |
+|          | 4 Mar    | EXAM 1 (scope: 18 Jan--18 Feb)  |                 |                        |
 | **8**    | 8 Mar    | Bayes Nets I         | §§13.1--13.3    | HW 6. Probability I; due Wed 23 Mar 10:59pm |
 |          | 11 Mar   | Bayes Nets II        | §13.4           |                        |
 | **9**    | 15 Mar   | Spring Recess        |                 |                        |
@@ -34,7 +34,7 @@
 |          | 25 Mar   | HMMs, Kalman filters, DBNs | §§14.3--14.5    |                        |
 | **11**   | 29 Mar   | Probabilistic Programming   | Ch. 15          |                        |
 |          | 1 Apr    | Utility Theory       | §§16.1--16.3    |                        |
-| **12**   | 5 Apr    | EXAM 2 on material covered 22Feb--25Mar  |                 | HW 8. Utility Theory; due Wed 13 Apr 10:59pm   |
+| **12**   | 5 Apr    | EXAM 2 (scope: 22 Feb--25 Mar)  |                 | HW 8. Utility Theory; due Wed 13 Apr 10:59pm   |
 |          | 8 Apr    | Decision Theory      | §§16.5--16.7    |                        |
 | **13**   | 12 Apr   | Markov Decision Processes and ML   | §§17.1, 17.2; §§19.1--19.3  | HW 9. MDPs and ML; due Wed 20 Apr 10:59pm   |
 |          | 15 Apr   | Good Friday (no classes)      |                 |                        |
