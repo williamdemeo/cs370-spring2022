@@ -36,9 +36,9 @@
 |          | 1 Apr    | Utility Theory       | §§16.1--16.3    |                        |
 | **12**   | 5 Apr    | EXAM 2 (scope: 22 Feb--25 Mar)  |                 | HW 8. Utility Theory; due Wed 13 Apr 10:59pm   |
 |          | 8 Apr    | Decision Theory      | §§16.5--16.7    |                        |
-| **13**   | 12 Apr   | Markov Decision Processes and ML   | §§17.1, 17.2; §§19.1--19.3  | HW 9. MDPs and ML; due Wed 20 Apr 10:59pm   |
+| **13**   | 12 Apr   | Markov Decision Procs and ML   | §§17.1, 17.2; §§19.1--19.3  | HW 9. MDPs and ML; due Wed 20 Apr 10:59pm   |
 |          | 15 Apr   | Good Friday (no classes)      |                 |                        |
-| **14**   | 19 Apr   | Machine Learning     | §§19.6, 20.1, 20.2  | HW 10. Machine Learning; due Wed 27 May 10:59pm |
+| **14**   | 19 Apr   | Machine Learning     | §§19.6, 20.1, 20.2  | HW 10. ML; due Wed 27 May 10:59pm |
 |          | 22 Apr   | Deep Learning I      | §§21.1--21.3    |                        |
 | **15**   | 26 Apr   | Deep Learning II     | §§21.4--21.7    |                        |
 |          | 29 Apr   | Reinforcement Learning | §§22.1--22.4    |                        |
