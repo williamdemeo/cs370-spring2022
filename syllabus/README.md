@@ -29,7 +29,7 @@ The *tentative* lecture and homework schedule shown below is subject to change. 
 | **7**    | 1 Mar    | Basic Probability    | Ch 12           | HW 5. Logic II; due Wed 9 Mar 10:59pm  |
 |          | 4 Mar    | EXAM 1 (scope: 18 Jan--18 Feb)  |                 |                        |
 | **8**    | 8 Mar    | Bayes Nets I         | 13.1--13.3    | HW 6. Probability I; due Wed 23 Mar 10:59pm |
-|          | 11 Mar   | Bayes Nets II        | §13.4           |                        |
+|          | 11 Mar   | Bayes Nets II        | 13.4           |                        |
 | **9**    | 15 Mar   | Spring Recess        |                 |                        |
 |          | 18 Mar   | Spring Recess        |                 |                        |
 | **10**   | 22 Mar   | MCs, Inference, EM Alg | 14.1, 14.2    | HW 7. Probability II; due Wed 30 Mar 10:59pm |
