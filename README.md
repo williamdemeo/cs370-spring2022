@@ -115,17 +115,21 @@ These are not required but might be helpful.
       +  [Apache Spark with Scala](https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/)
    +  [Coursera AI courses](https://www.coursera.org/courses?query=artificial%20intelligence)
 
++  **Books**
+
+   +  [Reinforcement Learning: an introduction](http://incompleteideas.net/book/ebook/the-book.html) by Sutton and Barto
+
 +  **Papers**
 
-   + [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) by Mikolov, et al. (the Word2vec paper)
-   + [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783v2) by Mnih, et al.
-   + [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/abs/1705.05363) by Pathak, et al.
+   +  [Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) by Mikolov, et al. (the Word2vec paper)
+   +  [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783v2) by Mnih, et al.
+   +  [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/abs/1705.05363) by Pathak, et al.
 
-+ **Miscellaneous**
++  **Miscellaneous**
 
-  + [OpenAI](https://openai.com/) (creators of GPT3)
-  + [The Ghost in the Machine](https://www.thisamericanlife.org/757/the-ghost-in-the-machine) episode of This American Life, in which "people use machines to find people they lost."
-  + [A robot wrote this article. Are you scared yet, human?](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3) 
+   +  [OpenAI](https://openai.com/) (creators of GPT3)
+   +  [The Ghost in the Machine](https://www.thisamericanlife.org/757/the-ghost-in-the-machine) episode of This American Life, in which "people use machines to find people they lost."
+   +  [A robot wrote this article. Are you scared yet, human?](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3) 
 
 
 -----------------------------------

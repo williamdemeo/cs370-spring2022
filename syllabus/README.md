@@ -12,46 +12,58 @@
 The *tentative* lecture and homework schedule shown below is subject to change.  Students should return to this page often throughout the semester to keep aprised of any modifications in the schedule or homework due dates.
 
 
-| **Week** | **Date** | **Topic**            | **Reading**     | **Homework**           |
-|----------|----------|----------------------|-----------------|------------------------|
-| **1**    | 18 Jan   | Intro to AI, Rational Agents       | Chs 1, 2        | HW 0. Math Diagnostic; due Wed 26 Jan 10:59pm |
-|          | 21 Jan   | State Spaces, Uninformed Search    | 3.1--3.4      |                        |
-| **2**    | 25 Jan   | Search I  | 3.5, 3.6      | HW 1. Search; due Wed 2 Feb 10:59pm  |
-|          | 28 Jan   | Search II        | 4.1, 4.2      |                        |
-| **3**    | 1 Feb    | Game Theory I | 5.1--5.3      | HW 2. Games; due Wed 9 Feb 10:59pm  |
-|          | 4 Feb    | Game Theory II  | 5.4, 5.5      |                        |
-| **4**    | 8 Feb    | CSP I                | 6.1--6.3      | HW 3. CSP; due Wed 16 Feb 10:59pm |
-|          | 11 Feb   | CSP II               | 6.4, 6.5      |                        |
-| **5**    | 15 Feb   | Propositional Logic  | 7.1--7.4      | HW 4. Logic I; due Wed 23 Feb 10:59pm |
-|          | 18 Feb   | Inference, Theorem Proving, DPLL | 7.5--7.7      |                        |
-| **6**    | 22 Feb   | First-Order Logic I  | 8.1--8.4      |                        |
-|          | 25 Feb   | First-Order Logic II  | 9.1--9.4      |                        |
-| **7**    | 1 Mar    | Basic Probability    | Ch 12           | HW 5. Logic II; due Wed 9 Mar 10:59pm  |
-|          | 4 Mar    | EXAM 1 (scope: 18 Jan--18 Feb)  |                 |                        |
-| **8**    | 8 Mar    | Bayes Nets I         | 13.1--13.3    | HW 6. Probability I; due Wed 23 Mar 10:59pm |
-|          | 11 Mar   | Bayes Nets II        | 13.4           |                        |
-| **9**    | 15 Mar   | Spring Recess        |                 |                        |
-|          | 18 Mar   | Spring Recess        |                 |                        |
-| **10**   | 22 Mar   | MCs, Inference, EM Alg | 14.1, 14.2    | HW 7. Probability II; due Wed 30 Mar 10:59pm |
-|          | 25 Mar   | HMMs, Kalman filters, DBNs | 14.3--14.5    |                        |
-| **11**   | 29 Mar   | Probabilistic Programming   | Ch. 15          |                        |
-|          | 1 Apr    | Decision Theory I      | 16.1--16.3    |                        |
-| **12**   | 5 Apr    | EXAM 2 (scope: 22 Feb--25 Mar)  |                 | HW 8. Decision Theory; due Wed 13 Apr 10:59pm   |
-|          | 8 Apr    | Decision Theory II     | 16.5--16.7    |                        |
-| **13**   | 12 Apr   | Markov Decision Procs and ML   | 17.1, 17.2; 19.1--19.3  | HW 9. MDPs and ML; due Wed 20 Apr 10:59pm   |
-|          | 15 Apr   | Good Friday (no classes)      |                 |                        |
-| **14**   | 19 Apr   | Machine Learning     | 19.6, 20.1, 20.2  | HW 10. ML; due Wed 27 May 10:59pm |
-|          | 22 Apr   | Deep Learning I      | 21.1--21.3    |                        |
-| **15**   | 26 Apr   | Deep Learning II     | 21.4--21.7    |                        |
-|          | 29 Apr   | Reinforcement Learning | 22.1--22.4    |                        |
-| **16**   | 3 May    | Review (last class)  |                 |                        |
-|          | 4 May    | (reading day)        |                 |                        |
-|          | 6 May    | (reading day)        |                 |                        |
-|          | 6 May    | (final exams begin)  |                 |                        |
-|          | 12 May   | (final exams end)    |                 |                        |
-|          | 14 May   | (final grades due)   |                 |                        |
+| **Week** | **Date** | **Topic**                        | **Reading**            | **Homework**                                                         |
+|----------|----------|----------------------------------|------------------------|----------------------------------------------------------------------|
+| **1**    | 18 Jan   | Intro to AI                      | Ch 1                   | [HW 0 (canvas)][] Preliminary Survey; due Wed 26 Jan 10:59pm         |
+|          | 21 Jan   | Rational Agents                  | Ch 2                   | [HW 1 (gradescope)][] Agents; due Wed 2 Feb 10:59pm                  |
+| **2**    | 25 Jan   | State Spaces, Uninformed Search  | 3.1--3.4               |                                                                      |
+|          | 28 Jan   | Search I                         | 3.5, 3.6               | [HW 2 (gradescope)][] Search; due Wed 9 Feb 10:59pm                  |
+| **3**    | 1 Feb    | Search II                        | 4.1, 4.2               |                                                                      |
+|          | 4 Feb    | Game Theory                      | 5.1--5.3               | [HW 3 (gradescope)][] Games; due Wed 16 Feb 10:59pm                  |
+| **4**    | 8 Feb    | Games                            | 5.4, 5.5               |                                                                      |
+|          | 11 Feb   | CSP                              | Ch 6                   | [HW 4 (gradescope)][] CSP; due Wed 23 Feb 10:59pm                    |
+| **5**    | 15 Feb   | Propositional Logic              | 7.1--7.4               |                                                                      |
+|          | 18 Feb   | Inference, Theorem Proving, DPLL | 7.5--7.7               | [HW 5 (gradescope)][] First-order logic; due Wed 2 Mar 10:59pm       |
+| **6**    | 22 Feb   | First order logic I              | 8.1--8.4               |                                                                      |
+|          | 25 Feb   | FOL II and Probability           | 9.1--9.4               | [HW 6 (gradescope)][] Prob & Bayes Nets; due Fri 11 Mar 10:59pm      |
+| **7**    | 1 Mar    | Probability & Bayes Nets         | Ch 12                  |                                                                      |
+|          | 4 Mar    | EXAM (scope: 18 Jan--25 Feb)     |                        | [HW 7 (gradescope)][]. Bayes Nets & HMMs; due Wed 30 Mar 10:59pm     |
+| **8**    | 8 Mar    | Bayes Nets I                     | 13.1--13.3             |                                                                      |
+|          | 11 Mar   | Bayes Nets II                    | 13.4                   |                                                                      |
+| **9**    | 15 Mar   | Spring Recess                    |                        |                                                                      |
+|          | 18 Mar   | Spring Recess                    |                        |                                                                      |
+| **10**   | 22 Mar   | MCs, Inference, HMMs             | 14.1--14.3             |                                                                      |
+|          | 25 Mar   | Kalman filters, DBNs             | 14.4, 14.5             |                                                                      |
+| **11**   | 29 Mar   | Prob Prog (time permitting)      | Ch 15                  |                                                                      |
+|          | 1 Apr    | Decision Theory I                | 16.1--16.3             | [HW 8 (gradescope)][]. Utility Theory & HMMs; due Wed 13 Apr 10:59pm |
+| **12**   | 5 Apr    | Decision Theory II               | 16.5--16.7             |                                                                      |
+|          | 8 Apr    | Markov Decision Procs            | 17.1, 17.2             | [HW 9 (gradescope)][]. MDPs; due Wed 20 Apr 10:59pm                  |
+| **13**   | 12 Apr   | Machine Learning I               | 19.1--19.4             |                                                                      |
+|          | 15 Apr   | Good Friday (no classes)         | 19.6, 19.7             | [HW 10 (gradescope)][]. Machine Learning; due Wed 27 May 10:59pm     |
+| **14**   | 19 Apr   | Machine Learning II              | 19.9, 20.1, 20.2       |                                                                      |
+|          | 22 Apr   | Deep Learning                    | 21.1--21.4             | [HW 11 (gradescope)][]. Reinforcement Learning; due Wed 4 May        |
+| **15**   | 26 Apr   | Deep & Reinforcement Learning    | 21.5--21.7             |                                                                      |
+|          | 29 Apr   | Reinforcement Learning           | 22.1--22.4             |                                                                      |
+| **16**   | 3 May    | Review (last class)              |                        |                                                                      |
+|          | 4 May    | (reading day)                    |                        |                                                                      |
+|          | 6 May    | (reading day)                    |                        |                                                                      |
+|          | 6 May    | (final exams begin)              |                        |                                                                      |
+|          | 12 May   | (final exams end)                |                        |                                                                      |
+|          | 14 May   | (final grades due)               |                        |                                                                      |
 
 
 
 
 [KUPF 107]: https://goo.gl/maps/GjhP3cjrMAJSzVFt5
+[HW 0 (canvas)]: https://njit.instructure.com/courses/22602/quizzes
+[HW 1 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 2 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 3 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 4 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 5 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 6 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 7 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 8 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 9 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 10 (gradescope)]: https://www.gradescope.com/courses/361553
+[HW 11 (gradescope)]: https://www.gradescope.com/courses/361553
