@@ -106,7 +106,7 @@ These are not required but might be helpful.
 
 +  **Online courses and videos**
 
-   +  [videolectures.net](http://videolectures.net/Top/Computer_Science/Artificial_Intelligence/)
+   +  [videolectures.net AI videos](http://videolectures.net/Top/Computer_Science/Artificial_Intelligence/)
    +  [edX AI courses](https://www.edx.org/search?q=Artificial%20Intelligence)
       +  [Artificial Intelligence](https://learning.edx.org/course/course-v1:ColumbiaX+CSMM.101x+2T2018/home)  by Columbia University
    +  [Udemy AI courses](https://www.udemy.com/topic/artificial-intelligence/)
