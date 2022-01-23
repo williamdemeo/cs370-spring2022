@@ -112,9 +112,7 @@ These are not required but might be helpful.
    +  [Udemy AI courses](https://www.udemy.com/topic/artificial-intelligence/)
       +  [Curiosity Driven Deep Reinforcement Learning](https://www.udemy.com/course/curiosity-driven-deep-reinforcement-learning/)
       +  [Natural Language Processing](https://www.udemy.com/course/natural-language-processing-from-first-principles/)
-   +  [Udemy ML courses](https://www.udemy.com/topic/machine-learning/)
-      + [Apache Spark with Scala](https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/)
-
+      +  [Apache Spark with Scala](https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/)
    +  [Coursera AI courses](https://www.coursera.org/courses?query=artificial%20intelligence)
 
 +  **Papers**
