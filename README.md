@@ -104,11 +104,18 @@ Students are expected to have access to the following textbook:
 
 These are not required but might be helpful.
 
-+  **Online courses on Udemy**
++  **Online courses and videos**
 
-   + [Curiosity Driven Deep Reinforcement Learning](https://www.udemy.com/course/curiosity-driven-deep-reinforcement-learning/)
-   + [Natural Language Processing](https://www.udemy.com/course/natural-language-processing-from-first-principles/)
-   + [Apache Spark with Scala](https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/)
+   +  [videolectures.net](http://videolectures.net/Top/Computer_Science/Artificial_Intelligence/)
+   +  [AI course from edX](https://www.edx.org/search?q=Artificial%20Intelligence), e.g.,
+      +  [Artificial Intelligence](https://learning.edx.org/course/course-v1:ColumbiaX+CSMM.101x+2T2018/home)  by Columbia University
+   +  [AI courses from Udemy](https://www.udemy.com/topic/artificial-intelligence/), e.g.,
+      +  [Curiosity Driven Deep Reinforcement Learning](https://www.udemy.com/course/curiosity-driven-deep-reinforcement-learning/)
+      +  [Natural Language Processing](https://www.udemy.com/course/natural-language-processing-from-first-principles/)
+   +  [ML courses from Udemy](https://www.udemy.com/topic/machine-learning/), e.g.,
+      + [Apache Spark with Scala](https://www.udemy.com/course/apache-spark-with-scala-hands-on-with-big-data/)
+
+   +  [AI courses from Coursera](https://www.coursera.org/courses?query=artificial%20intelligence)
 
 +  **Papers**
 
