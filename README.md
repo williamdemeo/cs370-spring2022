@@ -116,6 +116,11 @@ These are not required but might be helpful.
    + [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783v2) by Mnih, et al.
    + [Curiosity-driven Exploration by Self-supervised Prediction](https://arxiv.org/abs/1705.05363) by Pathak, et al.
 
++ **Miscellaneous**
+
+  + [OpenAI](https://openai.com/) (creators of GPT3)
+  + [The Ghost in the Machine](https://www.thisamericanlife.org/757/the-ghost-in-the-machine) episode of This American Life, in which "people use machines to find people they lost."
+  + [A robot wrote this article. Are you scared yet, human?](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3) 
 
 
 -----------------------------------
