@@ -98,7 +98,7 @@ Students are expected to have access to the following textbook:
 **Year**. 2020
 
 + [AIMA official web site](http://aima.cs.berkeley.edu/)
-
++ [AIMA Exercises web site](https://aimacode.github.io/aima-exercises/)
 
 ### Other Resources (optional)
 
@@ -109,6 +109,7 @@ These are not required but might be helpful.
    +  [videolectures.net AI videos](http://videolectures.net/Top/Computer_Science/Artificial_Intelligence/)
    +  [edX AI courses](https://www.edx.org/search?q=Artificial%20Intelligence)
       +  [Artificial Intelligence](https://learning.edx.org/course/course-v1:ColumbiaX+CSMM.101x+2T2018/home)  by Columbia University
+   +  [Udacity School of AI](https://www.udacity.com/school-of-ai)
    +  [Udemy AI courses](https://www.udemy.com/topic/artificial-intelligence/)
       +  [Curiosity Driven Deep Reinforcement Learning](https://www.udemy.com/course/curiosity-driven-deep-reinforcement-learning/)
       +  [Natural Language Processing](https://www.udemy.com/course/natural-language-processing-from-first-principles/)
