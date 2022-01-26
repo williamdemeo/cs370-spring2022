@@ -30,12 +30,8 @@ The code for this project consists of several Python files, some of which you wi
 
 | **Files you might want to look at** | **Description**                                            |
 |-------------------------------------|------------------------------------------------------------|
-| `pacman.py`                         | The main file that runs Pacman games.
-                                        This file describes a Pacman GameState type,
-                                        which you use in this project.                             |
-| `game.py`                           | The logic behind how the Pacman world works.
-                                        This file describes several supporting types
-                                        like `AgentState`, `Agent`, `Direction`, and `Grid`.       |
+| `pacman.py`                         | The main file that runs Pacman games. It describes a Pacman GameState type, which you use in this project. |
+| `game.py`                           | The logic behind how the Pacman world works. This file describes several supporting types like `AgentState`, `Agent`, `Direction`, and `Grid`. |
 | `util.py`                           | Useful data structures for implementing search algorithms. |
 
 
