@@ -2,7 +2,7 @@
 
 **Due: Fri 18 Feb at 11:59 pm**
 
-<img src="https://inst.eecs.berkeley.edu/~cs188/sp22/assets/images/maze.png" alt="Pacman maze" class="center-image img-fluid" style="width: 400px;" />
+<img src="https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project1/pacman.png" alt="Pacman maze" class="center-image img-fluid" style="width: 400px;" />
 
 All those colored walls,  
 Mazes give Pacman the blues,  
@@ -392,6 +392,11 @@ python autograder.py -q q8
 
 In order to submit your project, run `python autograder.py` and submit the generated token file `search.token` to the `Project 1` assignment on Gradescope.
 
+-------------------------------------------
 
-[zip archive]: https://inst.eecs.berkeley.edu/~cs188/sp22/assets/files/search.zip
-[search.zip]: https://inst.eecs.berkeley.edu/~cs188/sp22/assets/files/search.zip
+## Attribution
+
+This page and the project it describes were adapted from similar materials at [https://inst.eecs.berkeley.edu/~cs188/sp22/project1/](https://inst.eecs.berkeley.edu/~cs188/sp22/project1/), which the dedicated folks at [ai.berkeley.edu](https://ai.berkeley.edu) have generously made available for reuse.
+
+[zip archive]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project1/search.zip
+[search.zip]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project1/search.zip
