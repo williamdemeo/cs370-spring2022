@@ -291,7 +291,7 @@ In order to submit your project, first run `python autograder.py`. If you are sa
 
 ------------------------------------------------------------------------------------------------------
 
-**Attribution**. This page is an adaptation of the page posted at [https://inst.eecs.berkeley.edu/~cs188/sp22/project0/](https://inst.eecs.berkeley.edu/~cs188/sp22/project0/)
+**Attribution**. This page is an adaptation of the page [https://inst.eecs.berkeley.edu/~cs188/sp22/project0/](https://inst.eecs.berkeley.edu/~cs188/sp22/project0/)
 
 
 
