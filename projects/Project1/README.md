@@ -396,7 +396,7 @@ In order to submit your project, run `python autograder.py` and submit the gener
 
 ## Attribution
 
-This page and the project it describes were adapted from similar materials at [https://inst.eecs.berkeley.edu/~cs188/sp22/project1/](https://inst.eecs.berkeley.edu/~cs188/sp22/project1/), which the dedicated folks at [ai.berkeley.edu](https://ai.berkeley.edu) have generously made available for reuse.
+This page and the project it describes were adapted from similar materials at [https://inst.eecs.berkeley.edu/~cs188/sp22/project1/](https://inst.eecs.berkeley.edu/~cs188/sp22/project1/), which the dedicated folks at [ai.berkeley.edu](http://ai.berkeley.edu/home.html) have generously made available for reuse.
 
 [zip archive]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project1/search.zip
 [search.zip]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project1/search.zip

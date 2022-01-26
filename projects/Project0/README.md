@@ -293,7 +293,7 @@ In order to submit your project, first run `python autograder.py`. If you are sa
 
 ## Attribution
 
-This page and the project it describes were adapted from similar materials at [https://inst.eecs.berkeley.edu/~cs188/sp22/project0/](https://inst.eecs.berkeley.edu/~cs188/sp22/project0/), which the dedicated folks at [ai.berkeley.edu](https://ai.berkeley.edu) have generously made available for reuse.
+This page and the project it describes were adapted from similar materials at [https://inst.eecs.berkeley.edu/~cs188/sp22/project0/](https://inst.eecs.berkeley.edu/~cs188/sp22/project0/), which the dedicated folks at [ai.berkeley.edu](http://ai.berkeley.edu/home.html) have generously made available for reuse.
 
 
 
