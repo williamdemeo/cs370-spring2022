@@ -2,7 +2,7 @@
 
 | **Name** | **Topic** | **Due Date** |
 |----------|-----------|--------------|
-| [Project0][] | Python setup and practice with `autograder` | Fri 4 Feb 11:59pm |
+| [Project0][] | Python setup & autograder tutorial | Fri 4 Feb 11:59pm |
 | [Project1][] | Search | Fri 18 Feb 11:59pm |
 
 

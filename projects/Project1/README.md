@@ -1,4 +1,6 @@
-# Project 1 - Search - CS 370: Introduction to Artificial Intelligence, Spring 2022
+# CS 370: Introduction to Artificial Intelligence, Spring 2022
+
+# Project 1. Search
 
 **Due: Fri 18 Feb at 11:59 pm**
 

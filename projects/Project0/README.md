@@ -1,4 +1,6 @@
-# Project 0 - Python, Setup, & Autograder Tutorial - CS 370: Introduction to Artificial Intelligence, Spring 2022
+# CS 370: Introduction to Artificial Intelligence, Spring 2022
+
+# Project 0. Python setup & autograder tutorial
 
 ## Introduction
 
