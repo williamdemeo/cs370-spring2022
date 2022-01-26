@@ -1,6 +1,7 @@
 ## CS 370 Projects
 
 | **Name** | **Topic** | **Due Date** |
+|----------|-----------|--------------|
 | [Project0][] | Python setup and practice with `autograder` | Fri 4 Feb 11:59pm |
 | [Project1][] | Search | Fri 4 Feb 11:59pm |
 
