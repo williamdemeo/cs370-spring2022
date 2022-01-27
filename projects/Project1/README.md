@@ -110,13 +110,17 @@ You may not have seen this syntax before:
 def my_function(a: int, b: Tuple[int, int], c: List[List], d: Any, e: float=1.0):
 ```
 
-This is annotating the type of the arguments that Python should expect for this function. In the example below, `a` should be an `int`---integer, `b` should be a `tuple` of 2 `int`s, `c` should be a `List` of `List`s of anything---therefore a 2D array of anything, `d` is essentially the same as not annotated and can by anything, and `e` should be a `float`. `e` is also set to 1.0 if nothing is passed in for it, i.e.:
+This is annotating the type of the arguments that Python should expect for this function. In the example below, `a` should be an `int` (integer), `b` should be a `tuple` of 2 `int`s, `c` should be a `List` of `List`s of anything (i.e., a 2D array of anything), `d` is essentially the same as not annotated and can by anything, and `e` should be a `float`. Also, `e` is set to a default value of 1.0 if nothing is passed in for it.
+
+For example, the call
 
 ```python
 my_function(1, (2, 3), [['a', 'b'], [None, my_class], [[]]], ('h', 1))
 ```
 
-The above call fits the type annotations, and doesn't pass anything in for e. Type annotations are meant to be an adddition to the docstrings to help you know what the functions are working with. Python itself doesn't enforce these. When writing your own functions, it is up to you if you want to annotate your types; they may be helpful to keep organized or not something you want to spend time on.
+fits the type annotations, and doesn't pass anything in for `e`, so `e` is set equal to 1.0.
+
+Type annotations (along with docstrings) help you know what argument types the function takes as input. Python itself doesn't enforce these. When writing your own functions, it is up to you if you want to annotate your types; they can be very helpful, but your program may be simple enough that you don't want to bother with them.
 
 -----------
 
