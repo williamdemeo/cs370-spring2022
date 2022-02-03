@@ -18,8 +18,7 @@
 ## Instructor Information
 **Instructor**.  Dr. William DeMeo   
 **Email**. [williamdemeo at gmail](mailto:williamdemeo@gmail.com?subject=CS370: (replace-this-text-with-informative-subject-description))    
-**Office**. TBA  
-**Office hours**. TBA  
+**Office hours**. Tue: 2:40--3:30; Fri: 12--12:50 in GITC Rm 4325
 
 **Remarks about office hours**.
 The regularly scheduled office hours are subject to change.
