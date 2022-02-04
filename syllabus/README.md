@@ -23,11 +23,11 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 | **2**    | 25 Jan   | State Spaces, Uninformed Search  | 3.1--3.4         |                                                              | [Uninformed Search][] |
 |          | 28 Jan   | Search I                         | 3.5, 3.6         | [HW 2][] Search; due Wed 9 Feb 10:59pm                       | [Informed Search][]   |
 | **3**    | 1 Feb    | Search II                        | 4.1, 4.2         |                                                              |                       |
-|          | 4 Feb    | Game Trees I                     | 5.1--5.3         | [HW 3][] Games; due Wed 16 Feb 10:59pm                       | [Game Trees I][]      |
-| **4**    | 8 Feb    | Games Trees II                   | 5.4, 5.5         |                                                              | [Game Trees II][]     |
-|          | 11 Feb   | CSP                              | Ch 6             | [HW 4][] CSP; due Wed 23 Feb 10:59pm                         | [CSP I][]             |
-| **5**    | 15 Feb   | Propositional Logic              | 7.1--7.4         |                                                              | [CSP II][]            |
-|          | 18 Feb   | Inference, Theorem Proving, DPLL | 7.5--7.7         | [HW 5][] First-order logic; due Wed 2 Mar 10:59pm            |                       |
+|          | 4 Feb    | CSP I                            | 6.1, 6.2         | [HW 3][] CSP; due Wed 16 Feb 10:59pm                         | [CSP I][]             |
+| **4**    | 8 Feb    | CSP II                           | 6.3--6.5         |                                                              | [CSP II][]            |
+|          | 11 Feb   | Games Trees: Minimax             | 5.1, 5.2         | [HW 4][] Games; due Wed 23 Feb 10:59pm                       | [Game Trees I][]      |
+| **5**    | 15 Feb   | Games Trees: Expectimax, Utility | 5.3--5.5         |                                                              | [Game Trees II][]     |
+|          | 18 Feb   | Inference, Theorem Proving, DPLL | Ch 7             | [HW 5][] First-order logic; due Wed 2 Mar 10:59pm            |                       |
 | **6**    | 22 Feb   | First order logic I              | 8.1--8.4         |                                                              |                       |
 |          | 25 Feb   | FOL II and Probability           | 9.1--9.4         | [HW 6][] Prob & Bayes Nets; due Fri 11 Mar 10:59pm           | [Probability][]       |
 | **7**    | 1 Mar    | Probability & Bayes Nets         | Ch 12            |                                                              |                       |
