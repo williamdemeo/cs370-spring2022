@@ -51,7 +51,7 @@ Prerequisite: [Anaconda][]. Some of you might have already installed this for us
 The command for creating a conda environment with Python 3.6 is:
 
 ```shell
-$ conda create --name <env-name> python3.6
+$ conda create --name <env-name> python=3.6
 ```
 
 (N.B. The `$` symbol is the shell prompt; it's not part of the command.)
