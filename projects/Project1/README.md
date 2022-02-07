@@ -1,6 +1,6 @@
 # CS 370: Introduction to Artificial Intelligence, Spring 2022
 
-# Project 1. Search
+# Project 1. Search (Part 1)
 
 **Due: Fri 18 Feb at 11:59 pm**
 
@@ -23,6 +23,10 @@ As in Project 0, this project includes an autograder for you to grade your answe
 See the autograder tutorial in Project 0 for more information about using the autograder.
 
 The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore.  You can download all the code and supporting files as a [zip archive][].
+
+**IMPORTANT!**
+
+Please keep in mind the information displayed in the following tables.  Use it to guide your coding effort and help you avoid doing unnecessary work.
 
 | **Files you'll edit** | **Description**                                    |
 |-----------------------|----------------------------------------------------|
@@ -250,153 +254,13 @@ You should see that A* finds the optimal solution slightly faster than uniform c
 python autograder.py -q q4
 ```
 
----------------------------------
-
-## Question 5 (3 points): Finding All the Corners
-
-The real power of A* will only be apparent with a more challenging search problem. Now, it's time to formulate a new problem and design a heuristic for it.
-
-In *corner mazes*, there are four dots, one in each corner. Our new search problem is to find the shortest path through the maze that touches all four corners (whether the maze actually has food there or not). Note that for some mazes like `tinyCorners`, the shortest path does not always go to the closest food first! *Hint*: the shortest path through `tinyCorners` takes 28 steps.
-
-*Note*. Make sure to complete Question 2 before working on Question 5, because Question 5 builds upon your answer for Question 2.
-
-Implement the `CornersProblem` search problem in `searchAgents.py`. You will need to choose a state representation that encodes all the information necessary to detect whether all four corners have been reached. Now, your search agent should solve:
-
-```shell
-python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
-```
-
-```shell
-python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
-```
-
-To receive full credit, you need to define an abstract state representation that *does not* encode irrelevant information (like the position of ghosts, where extra food is, etc.). In particular, do not use a Pacman `GameState` as a search state. Your code will be very, very slow if you do (and also wrong).
-
-*Hint 1*. The only parts of the game state you need to reference in your implementation are the starting Pacman position and the location of the four corners.
-
-*Hint 2*. When coding up `getSuccessors`, make sure to add children to your successors list with a cost of 1.
-
-Our implementation of `breadthFirstSearch` expands just under 2000 search nodes on `mediumCorners`. However, heuristics (used with A* search) can reduce the amount of searching required.
-
-*Grading*. Please run the below command to see if your implementation passes all the autograder test cases.
-
-```shell
-python autograder.py -q q5
-```
-
-----------------------------------------
-
-## Question 6 (3 points): Corners Problem: Heuristic
-
-*Note*. Make sure to complete Question 4 before working on Question 6, because Question 6 builds upon your answer for Question 4.
-
-Implement a non-trivial, consistent heuristic for the `CornersProblem` in `cornersHeuristic`.
-
-```shell
-python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
-```
-
-*Note*. `AStarCornersAgent` is a shortcut for
-
-```shell
--p SearchAgent -a fn=aStarSearch,prob=CornersProblem,heuristic=cornersHeuristic
-```
-
-**Admissibility vs. Consistency**.  Remember, heuristics are just functions that take search states and return numbers that estimate the cost to a nearest goal. More effective heuristics will return values closer to the actual goal costs. To be *admissible*, the heuristic values must be lower bounds on the actual shortest path cost to the nearest goal (and non-negative). To be *consistent*, it must additionally hold that if an action has cost *c*, then taking that action can only cause a drop in heuristic of at most *c*.
-
-Remember that admissibility isn't enough to guarantee correctness in graph search – you need the stronger condition of consistency. However, admissible heuristics are usually also consistent, especially if they are derived from problem relaxations. Therefore it is usually easiest to start out by brainstorming admissible heuristics. Once you have an admissible heuristic that works well, you can check whether it is indeed consistent, too. The only way to guarantee consistency is with a proof. However, inconsistency can often be detected by verifying that for each node you expand, its successor nodes are equal or higher in in f-value. Moreover, if UCS and A* ever return paths of different lengths, your heuristic is inconsistent. This stuff is tricky!
-
-**Non-Trivial Heuristics**. The trivial heuristics are the ones that return zero everywhere (UCS) and the heuristic which computes the true completion cost. The former won't save you any time, while the latter will timeout the autograder. You want a heuristic which reduces total compute time, though for this assignment the autograder will only check node counts (aside from enforcing a reasonable time limit).
-
-**Grading**. Your heuristic must be a non-trivial non-negative consistent heuristic to receive any points. Make sure that your heuristic returns 0 at every goal state and never returns a negative value. Depending on how few nodes your heuristic expands, you'll be graded:
-
-| **Number of nodes expanded** | **Grade** |
-|------------------------------|-----------|
-| more than 2000               | 0/3       |
-| at most 2000                 | 1/3       |
-| at most 1600                 | 2/3       |
-| at most 1200                 | 3/3       |
-
-*Remember*. If your heuristic is inconsistent, you will receive *no* credit, so be careful!
-
-*Grading*. Please run the below command to see if your implementation passes all the autograder test cases for Question 6.
-
-```shell
-python autograder.py -q q6
-```
-
------------------------------------------
-
-## Question 7 (4 points): Eating All The Dots
-
-Now we'll solve a hard search problem: eating all the Pacman food in as few steps as possible. For this, we'll need a new search problem definition which formalizes the food-clearing problem: `FoodSearchProblem` in `searchAgents.py` (implemented for you). A solution is defined to be a path that collects all of the food in the Pacman world. For the present project, solutions do not take into account any ghosts or power pellets; solutions only depend on the placement of walls, regular food and Pacman. (Of course ghosts can ruin the execution of a solution! We'll get to that in the next project.) If you have written your general search methods correctly, `A*` with a null heuristic (equivalent to uniform-cost search) should quickly find an optimal solution to `testSearch` with no code change on your part (total cost of 7).
-
-```shell
-python pacman.py -l testSearch -p AStarFoodSearchAgent
-```
-
-*Note*. `AStarFoodSearchAgent` is a shortcut for
-
-```shell
--p SearchAgent -a fn=astar,prob=FoodSearchProblem,heuristic=foodHeuristic
-```
-
-You should find that UCS starts to slow down even for the seemingly simple `tinySearch`. As a reference, our implementation takes 2.5 seconds to find a path of length 27 after expanding 5057 search nodes.
-
-*Note*. Make sure to complete Question 4 before working on Question 7, because Question 7 builds upon your answer for Question 4.
-
-Fill in `foodHeuristic` in `searchAgents.py` with a *consistent* heuristic for the `FoodSearchProblem`. Try your agent on the `trickySearch` board:
-
-```shell
-python pacman.py -l trickySearch -p AStarFoodSearchAgent
-```
-
-Our UCS agent finds the optimal solution in about 13 seconds, exploring over 16,000 nodes.
-
-Any non-trivial non-negative consistent heuristic will receive 1 point. Make sure that your heuristic returns 0 at every goal state and never returns a negative value. Depending on how few nodes your heuristic expands, you'll get additional points:
-
-| **Number of nodes expanded** | **Grade** |
-| more than 15000              | 1/4       |
-| at most 15000                | 2/4       |
-| at most 12000                | 3/4       |
-| at most 9000                 | 4/4 (full credit; medium) |
-| at most 7000                 | 5/4 (optional extra credit; hard) |
-
-*Remember*. If your heuristic is inconsistent, you will receive *no* credit, so be careful! Can you solve `mediumSearch` in a short time? If so, we're either very, very impressed, or your heuristic is inconsistent.
-
-*Grading*. Please run the below command to see if your implementation passes all the autograder test cases for Question 7.
-
-```shell
-python autograder.py -q q7
-```
-
------------------------------------
-
-## Question 8 (3 points): Suboptimal Search
-
-Sometimes, even with A* and a good heuristic, finding the optimal path through all the dots is hard. In these cases, we'd still like to find a reasonably good path, quickly. In this section, you'll write an agent that always greedily eats the closest dot. `ClosestDotSearchAgent` is implemented for you in `searchAgents.py`, but it's missing a key function that finds a path to the closest dot.
-
-Implement the function `findPathToClosestDot` in `searchAgents.py`. Our agent solves this maze (suboptimally!) in under a second with a path cost of 350:
-
-```shell
-python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5
-```
-
-*Hint*. The quickest way to complete `findPathToClosestDot` is to fill in the `AnyFoodSearchProblem`, which is missing its goal test. Then, solve that problem with an appropriate search function. The solution should be very short!
-
-Your `ClosestDotSearchAgent` won't always find the shortest possible path through the maze. Make sure you understand why and try to come up with a small example where repeatedly going to the closest dot does not result in finding the shortest path for eating all the dots.
-
-*Grading*. Please run the below command to see if your implementation passes all the autograder test cases for Question 8.
-
-```shell
-python autograder.py -q q8
-```
-
 -------------------------------
 
 ## Submission
 
-In order to submit your project, run `python autograder.py` and submit the generated token file `search.token` to the `Project 1` assignment on Gradescope.
+In order to submit your project, run `python autograder.py` and, when you are satisfied with the results, submit the file `search.py`, and (if you modified them) the files `searchAgents.py` and `util.py`, to the `Project 1` assignment on Gradescope.
+
+Please note: if you modified files other than these three, and if your solution depends on those modifications, then it is likely that your submission will not be accepted.  Please limit your code to the files `search.py`, `searchAgents.py`, and `util.py` (though it is possible to achieve a full score on this assignment by modifying only a subset of the three files mentioned).
 
 -------------------------------------------
 
