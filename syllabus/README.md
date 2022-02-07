@@ -18,20 +18,20 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 
 | **Week** | **Date** | **Topic**                        | **Reading**      | **Homework**                                                 | **Project Due Dates** | **UCB Videos**        |
 |----------|----------|----------------------------------|------------------|--------------------------------------------------------------|-----------------------|-----------------------|
-| **1**    | 18 Jan   | Intro to AI                      | Ch 1             | [HW 0 (canvas)][] Preliminary Survey; due Wed 26 Jan 10:59pm |                       | [Intro to AI][]       |
-|          | 21 Jan   | Rational Agents                  | Ch 2             | [HW 1][] Agents; due Wed 2 Feb 10:59pm                       |                       |                       |
+| **1**    | 18 Jan   | Intro to AI                      | Ch 1             | [HW 0 (canvas)][] Preliminary Survey; due Wed 26 Jan 23:59 |                       | [Intro to AI][]       |
+|          | 21 Jan   | Rational Agents                  | Ch 2             | [HW 1][] Agents; due Wed 2 Feb 23:59                       |                       |                       |
 | **2**    | 25 Jan   | State Spaces, Uninformed Search  | 3.1--3.4         |                                                              |                       | [Uninformed Search][] |
-|          | 28 Jan   | Search I                         | 3.5, 3.6         | [HW 2][] Search; due Wed 9 Feb 10:59pm                       |                       | [Informed Search][]   |
+|          | 28 Jan   | Search I                         | 3.5, 3.6         | [HW 2][] Search; due Wed 9 Feb 23:59                       |                       | [Informed Search][]   |
 | **3**    | 1 Feb    | Search II                        | 4.1, 4.2         |                                                              |                       |                       |
-|          | 4 Feb    | CSP I                            | 6.1, 6.2         | [HW 3][] CSP; due Wed 16 Feb 10:59pm                         |                       | [CSP I][]             |
+|          | 4 Feb    | CSP I                            | 6.1, 6.2         | [HW 3][] CSP; due Wed 16 Feb 23:59                         |                       | [CSP I][]             |
 | **4**    | 8 Feb    | CSP II                           | 6.3--6.5         |                                                              |                       | [CSP II][]            |
-|          | 11 Feb   | Games Trees: Minimax             | 5.1, 5.2         | [HW 4][] Games; due Wed 23 Feb 10:59pm                       |                       | [Game Trees I][]      |
+|          | 11 Feb   | Games Trees: Minimax             | 5.1, 5.2         | [HW 4][] Games; due Wed 23 Feb 23:59                       |                       | [Game Trees I][]      |
 | **5**    | 15 Feb   | Games Trees: Expectimax, Utility | 5.3--5.5         |                                                              |                       | [Game Trees II][]     |
-|          | 18 Feb   | Inference, Theorem Proving, DPLL | Ch 7             | [HW 5][] First-order logic; due Wed 2 Mar 10:59pm            | **Project 1 Due by 11:59** |                       |
+|          | 18 Feb   | Inference, Theorem Proving, DPLL | Ch 7             | [HW 5][] First-order logic; due Wed 2 Mar 23:59            | **Project 1 Due by 23:59** |                       |
 | **6**    | 22 Feb   | First order logic I              | 8.1--8.4         |                                                              |                       |                       |
-|          | 25 Feb   | FOL II and Probability           | 9.1--9.4         | [HW 6][] Prob & Bayes Nets; due Fri 11 Mar 10:59pm           | **Project 2 Due by 11:59** | [Probability][]       |
+|          | 25 Feb   | FOL II and Probability           | 9.1--9.4         | [HW 6][] Prob & Bayes Nets; due Fri 11 Mar 23:59           | **Project 2 Due by 23:59** | [Probability][]       |
 | **7**    | 1 Mar    | Probability & Bayes Nets         | Ch 12            |                                                              |                       |                       |
-|          | 4 Mar    | EXAM (scope: 18 Jan--25 Feb)     |                  | [HW 7][]. Bayes Nets & HMMs; due Wed 30 Mar 10:59pm          |                       | [Bayes Nets][]        |
+|          | 4 Mar    | EXAM (scope: 18 Jan--25 Feb)     |                  | [HW 7][]. Bayes Nets & HMMs; due Wed 30 Mar 23:59          |                       | [Bayes Nets][]        |
 | **8**    | 8 Mar    | Bayes Nets (BN)                  | 13.1--13.3       |                                                              |                       |                       |
 |          | 11 Mar   | BN: independence                 | 13.4             |                                                              |                       | [BN: independence][]  |
 | **9**    | 15 Mar   | Spring Recess                    |                  |                                                              |                       |                       |
@@ -39,11 +39,11 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 | **10**   | 22 Mar   | BN: inference, sampling          | 14.1--14.3       |                                                              |                       | [BN: sampling][]      |
 |          | 25 Mar   | HMM, DBN                         | 14.4, 14.5       |                                                              |                       | [HMM][]               |
 | **11**   | 29 Mar   | Prob Prog (time permitting)      | Ch 15            |                                                              |                       | [HMM Apps][]          |
-|          | 1 Apr    | Decision Theory                  | 16.1--16.3       | [HW 8][]. Utility Theory & HMMs; due Wed 13 Apr 10:59pm      |                       | [Decision Networks][] |
+|          | 1 Apr    | Decision Theory                  | 16.1--16.3       | [HW 8][]. Utility Theory & HMMs; due Wed 13 Apr 23:59      |                       | [Decision Networks][] |
 | **12**   | 5 Apr    | Decision Networks                | 16.5--16.7       |                                                              |                       | [MDP I][]             |
-|          | 8 Apr    | Markov Decision Procs            | 17.1, 17.2       | [HW 9][]. MDPs; due Wed 20 Apr 10:59pm                       |                       | [MDP II][]            |
+|          | 8 Apr    | Markov Decision Procs            | 17.1, 17.2       | [HW 9][]. MDPs; due Wed 20 Apr 23:59                       |                       | [MDP II][]            |
 | **13**   | 12 Apr   | ML: Naive Bayes                  | 19.1--19.4       |                                                              |                       | [ML: Naive Bayes][]   |
-|          | 15 Apr   | Good Friday (no classes)         | 19.6, 19.7       | [HW 10][]. Machine Learning; due Wed 27 May 10:59pm          |                       | [ML: Decision Trees][] |
+|          | 15 Apr   | Good Friday (no classes)         | 19.6, 19.7       | [HW 10][]. Machine Learning; due Wed 27 May 23:59          |                       | [ML: Decision Trees][] |
 | **14**   | 19 Apr   | ML: Neural Nets                  | 19.9, 20.1, 20.2 |                                                              |                       | [ML: Neural Nets][]   |
 |          | 22 Apr   | Deep Learning                    | 21.1--21.4       | [HW 11][]. Reinforcement Learning; due Wed 4 May             |                       | [RL I][]              |
 | **15**   | 26 Apr   | Deep & Reinforcement Learning    | 21.5--21.7       |                                                              |                       | [RL II][]             |
