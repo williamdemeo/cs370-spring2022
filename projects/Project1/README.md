@@ -1,8 +1,8 @@
 # CS 370: Introduction to Artificial Intelligence, Spring 2022
 
-# Project 1. Search (Part 1)
+# Project 1. Search
 
-**Due: Fri 18 Feb at 11:59 pm**
+**Due: Fri 18 Feb 2022 by 11:59 pm**
 
 <img src="https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project1/pacman.png" alt="Pacman maze" class="center-image img-fluid" style="width: 400px;" />
 
