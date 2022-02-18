@@ -60,7 +60,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 
 [Jordan 2.1]: https://github.com/williamdemeo/cs370-spring2022/tree/master/notes/Chapter2.pdf
 [Project 0]: https://github.com/williamdemeo/cs370-spring2022/tree/master/projects/Project0
-[Project 1 (part 1)]: https://github.com/williamdemeo/cs370-spring2022/tree/master/projects/Project1
+[Project 1]: https://github.com/williamdemeo/cs370-spring2022/tree/master/projects/Project1
 [Project 1 (part 2)]: https://github.com/williamdemeo/cs370-spring2022/tree/master/projects/Project1
 [Project 2]: https://github.com/williamdemeo/cs370-spring2022/tree/master/projects/Project2
 [Project 3]: https://github.com/williamdemeo/cs370-spring2022/tree/master/projects/Project3
