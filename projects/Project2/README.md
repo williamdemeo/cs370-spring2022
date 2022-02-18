@@ -333,7 +333,7 @@ python autograder.py -q q2 --no-graphics
     often win (665/1000 games for us) despite the dire prediction of
     depth 4 minimax.
 
-            ```
+    ```
     python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
     ```
         
@@ -355,7 +355,7 @@ python autograder.py -q q2 --no-graphics
     living. Sometimes, this is the wrong thing to do with random ghosts,
     but minimax agents always assume the worst:
 
-            ```
+    ```
     python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
     ```
         
