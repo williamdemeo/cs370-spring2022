@@ -10,4 +10,4 @@
 
 [Project 0]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project0/
 [Project 1]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project1/
-[Project 2]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project1/
+[Project 2]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project2/
