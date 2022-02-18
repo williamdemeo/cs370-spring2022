@@ -405,9 +405,7 @@ match the autograder.)
 The pseudo-code below represents the algorithm you should implement for
 this question.
 
-![Alpha-Beta
-Implementation](/~cs188/fa21/assets/images/alpha_beta_impl.png){.center-image
-.mb-3 .img-fluid}
+![Alpha-Beta Implementation](https://inst.eecs.berkeley.edu/~cs188/fa21/assets/images/alpha_beta_impl.png)
 
 To test and debug your code, run
 
