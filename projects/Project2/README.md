@@ -520,7 +520,7 @@ following way:
 -   The additional points for average score and computation time will
     only be awarded if you win at least 5 times.
 -   Please do not copy any files from Project 1, as it will not pass the
-    autograder on Gradescope.
+    autograder on [Gradescope][].
 
 You can try your agent out under these conditions with
 
@@ -539,11 +539,13 @@ python autograder.py -q q5 --no-graphics
 Submission
 ----------
 
-In order to submit your project, run
-`python submission_autograder.py` and submit the
-generated token file `multiagent.token` to the
-`Project 2` assignment on Gradescope.
+To submit your project upload your `multiAgents.py` file to the `Project 2` assignment on [Gradescope][].
+
+<!-- `python submission_autograder.py` and submit the -->
+<!-- generated token file `multiagent.token` to the -->
+<!-- `Project 2` assignment on Gradescope. -->
 
 
 [zip archive]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project2/multiagent.zip
 [multiagent.zip]: https://github.com/williamdemeo/cs370-spring2022/blob/master/projects/Project2/multiagent.zip
+[Gradescope]: https://www.gradescope.com/courses/361553
