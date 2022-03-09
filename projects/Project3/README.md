@@ -55,7 +55,7 @@ It can be run for one particular test by commands of the form:
 See the [Submission](#submission) section below and the autograder tutorial in Project 0 for more information about using the autograder.
 
 The code for this project contains the following files, available as a
-[zip archive](reinforcement.zip).
+[zip archive](https://github.com/williamdemeo/cs370-spring2022/raw/master/projects/Project3/reinforcement.zip).
 
 
 
