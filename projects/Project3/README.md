@@ -188,9 +188,9 @@ phase. `ValueIterationAgent` takes an MDP on construction and runs value
 iteration for the specified number of iterations before the constructor
 returns.
 
-Value iteration computes k-step estimates of the optimal values, V~k~.
+Value iteration computes k-step estimates of the optimal values, Vₖ.
 In addition to running value iteration, implement the following methods
-for `ValueIterationAgent` using V~k~.
+for `ValueIterationAgent` using Vₖ.
 
 -   `computeActionFromValues(state)` computes the best action according
     to the value function given by `self.values`.
@@ -203,7 +203,7 @@ squares, Q-values are numbers in square quarters, and policies are
 arrows out from each square.
 
 *Important:* Use the \"batch\" version of value iteration where each
-vector V~k~ is computed from a fixed vector V~k-1~ (like in lecture),
+vector Vₖ is computed from a fixed vector Vₖ₋₁ (like in lecture),
 not the \"online\" version where one single weight vector is updated in
 place. This means that when a state\'s value is updated in iteration k
 based on the values of its successor states, the successor state values
@@ -215,10 +215,10 @@ Barto](http://www.cs.ualberta.ca/~sutton/book/ebook/node41.html) in the
 
 *Note:* A policy synthesized from values of depth k (which reflect the
 next k rewards) will actually reflect the next k+1 rewards (i.e. you
-return \\(\\pi\_{k+1}\\)). Similarly, the Q-values will also reflect one
-more reward than the values (i.e. you return Q~k+1~).
+return πₖ₊₁. Similarly, the Q-values will also reflect one
+more reward than the values (i.e. you return Qₖ₊₁).
 
-You should return the synthesized policy \\(\\pi\_{k+1}\\).
+You should return the synthesized policy πₖ₊₁.
 
 *Hint:* You may optionally use the `util.Counter` class in `util.py`,
 which is a dictionary with a default value of zero. However, be careful
