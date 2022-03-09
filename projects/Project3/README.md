@@ -175,7 +175,7 @@ reward option (`-r`).
 
 Recall the value iteration state update equation:
 
-![bellman](images/bellman2.png){width="400px"}
+![bellman](images/bellman2.png)
 
 Write a value iteration agent in `ValueIterationAgent`, which has been
 partially specified for you in `valueIterationAgents.py`. Your value
@@ -244,7 +244,7 @@ iterations should give you this output:
 
     python gridworld.py -a value -i 5
 
-![value iteration with k=5](images/value.png){width="50%"}
+![value iteration with k=5](images/value.png)
 
 *Grading:* Your value iteration agent will be graded on a new grid. We
 will check your values, Q-values, and policies after fixed numbers of
@@ -269,7 +269,7 @@ The default corresponds to:
 
     python gridworld.py -a value -i 100 -g BridgeGrid --discount 0.9 --noise 0.2
 
-![value iteration with k=100](images/value-q2.png){width="50%"}
+![value iteration with k=100](images/value-q2.png)
 
 *Grading:* We will check that you only changed one of the given
 parameters, and that with this change, a correct value iteration agent
@@ -296,7 +296,7 @@ and are represented by the red arrow in the figure below. (2) paths that
 paths are longer but are less likely to incur huge negative payoffs.
 These paths are represented by the green arrow in the figure below.
 
-![DiscountGrid](images/discountgrid.png){width="50%"}
+![DiscountGrid](images/discountgrid.png)
 
 In this question, you will choose settings of the discount, noise, and
 living reward parameters for this MDP to produce optimal policies of
@@ -364,7 +364,7 @@ defined in the code skeleton.
 
 As a reminder, here\'s the value iteration state update equation:
 
-![bellman](images/bellman2.png){width="400px"}
+![bellman](images/bellman2.png)
 
 Value iteration iterates a fixed-point equation, as discussed in class.
 It is also possible to update the state values in different ways, such
@@ -526,7 +526,7 @@ parameter (though this obviously makes Q-learning less interesting). If
 you manually steer Pacman north and then east along the optimal path for
 four episodes, you should see the following Q-values:
 
-![QLearning](images/q-learning.png){width="50%"}
+![QLearning](images/q-learning.png)
 
 *Grading:* We will run your Q-learning agent and check that it learns
 the same Q-values and policy as our reference implementation when each
