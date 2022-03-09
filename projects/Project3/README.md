@@ -711,14 +711,15 @@ Write your implementation in `ApproximateQAgent` class in
 
 *Note:* Approximate Q-learning assumes the existence of a feature
 function f(s,a) over state and action pairs, which yields a vector
-f~1~(s,a) .. f~i~(s,a) .. f~n~(s,a) of feature values. We provide
+(f₁(s,a), …, fᵢ(s,a), …, fₙ(s,a)) of feature values. We provide
 feature functions for you in `featureExtractors.py`. Feature vectors are
 `util.Counter` (like a dictionary) objects containing the non-zero pairs
 of features and values; all omitted features have value zero.
 
 The approximate Q-function takes the following form
 
-Q(s, a) = Σᵢ₌₁ⁿ fᵢ(s,a) wᵢ
+<!-- Q(s, a) = Σᵢ₌₁ⁿ fᵢ(s,a) wᵢ -->
+![qfunction](images/approxQ.png)
 
 where each weight wᵢ is associated with a particular feature
 fᵢ(s,a). In your code, you should implement the weight vector as a
@@ -726,12 +727,14 @@ dictionary mapping features (which the feature extractors will return)
 to weight values. You will update your weight vectors similarly to how
 you updated Q-values:
 
-wᵢ ← wᵢ + α · difference · fᵢ(s,a)
+<!-- wᵢ ← wᵢ + α · difference · fᵢ(s,a)
 
-difference = r + γ \(\max_{a'}\) Q(s', a') - Q(s,a)
+difference = r + γ max \{Q(s', a'): a' ∈ Actions\} - Q(s,a) -->
+![approxqupdate](images/approxQupdate.png)
 
-Note that the difference term is the same as in normal Q-learning,
-and r is the experienced reward.
+
+Note that the *difference* term is the same as in normal Q-learning,
+and *r* is the experienced reward.
 
 By default, `ApproximateQAgent` uses the `IdentityExtractor`, which
 assigns a single feature to every `(state,action)` pair. With this
