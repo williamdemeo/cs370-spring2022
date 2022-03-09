@@ -58,27 +58,26 @@ The code for this project contains the following files, available as a
 [zip archive](reinforcement.zip).
 
 
-|----------------------------------------|---------------------------------------------------------------|
-| **Files you\'ll edit**                 | Description                                                   |
+
+| Files you\'ll edit                     | Description                                                   |
 |----------------------------------------|---------------------------------------------------------------|
 | `valueIterationAgents.py`              | A value iteration agent for solving known MDPs.               |
 | `qlearningAgents.py`                   | Q-learning agents for Gridworld, Crawler and Pacman.          |
 | `analysis.py`                          | A file to put your answers to questions given in the project. |
-|----------------------------------------|---------------------------------------------------------------|
 
-|----------------------------------------|---------------------------------------------------|
-| **Files you should read but NOT edit** | Description                                       |
+
+| Files to read but NOT edit             | Description                                       |
 |----------------------------------------|---------------------------------------------------|
 | `mdp.py`                               | Defines methods on general MDPs.                  |
 | `learningAgents.py`                    | Defines the base classes `ValueEstimationAgent` and `QLearningAgent`, which your agents will extend. |
 | `util.py`                              | Utilities, including `util.Counter`, which is particularly useful for Q-learners.|
 | `gridworld.py`                         | The Gridworld implementation.                     |
 | `featureExtractors.py`                 | Classes for extracting features on (state, action) pairs. Used for the approximate Q-learning agent (in `qlearningAgents.py`). |
-|----------------------------------------|---------------------------------------------------|
 
 
-|--------------------------------|-------------|
-| **Files you can ignore**       | Description |
+
+
+| Files you can ignore           | Description |
 |--------------------------------|-------------|
 | `environment.py`               | Abstract class for general reinforcement learning environments. Used by `gridworld.py`. |
 | `graphicsGridworldDisplay.py`  | Gridworld graphical display. |
@@ -91,7 +90,6 @@ The code for this project contains the following files, available as a
 | `testClasses.py`               | General autograding test classes |
 | `test_cases/`                  | Directory containing the test cases for each question |
 | `reinforcementTestClasses.py`  | Project 3 specific autograding test classes |
-|----------------------------------------|---------------------------------------------------|
 
 
 **Files to Edit and Submit**. You will fill in portions of
