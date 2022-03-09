@@ -728,7 +728,7 @@ you updated Q-values:
 
 wᵢ ← wᵢ + α · difference · fᵢ(s,a)
 
-difference = r + γ max$$_{a'}$$ Q(s', a') - Q(s,a)
+difference = r + γ \(\max_{a'}\) Q(s', a') - Q(s,a)
 
 Note that the difference term is the same as in normal Q-learning,
 and r is the experienced reward.
