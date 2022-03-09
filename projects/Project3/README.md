@@ -1,7 +1,4 @@
-::: {#content}
-::: {.project}
-Project 3: Reinforcement Learning {#project-3-reinforcement-learning .project_title}
----------------------------------
+# Project 3: Reinforcement Learning {#project-3-reinforcement-learning .project_title}
 
 Version 1.001. Last Updated: 9 Mar 2022.
 
@@ -11,8 +8,8 @@ Version 1.001. Last Updated: 9 Mar 2022.
 Table of Contents
 -----------------
 
--   [Introduction](#Introduction)
--   [Welcome](#Welcome)
+-   [Introduction](#introduction)
+-   [Welcome](#welcome)
 -   [Q1: Value Iteration](#Q1)
 -   [Q2: Bridge Crossing Analysis](#Q2)
 -   [Q3: Policies](#Q3)
@@ -23,22 +20,19 @@ Table of Contents
 -   [Q8: Bridge Crossing Revisited](#Q8)
 -   [Q9: Q-Learning and Pacman](#Q9)
 -   [Q10: Approximate Q-Learning](#Q10)
--   [Submission](#Submission)
-:::
+-   [Submission](#submission)
 
 ------------------------------------------------------------------------
 
-::: {.project}
-::: {.text-center}
-![Pacman maze](images/capsule.png){width="400"}
+![Pacman maze](images/capsule.png)
 
 Pacman seeks reward.\
 Should he eat or should he run?\
 When in doubt, Q-learn.
-:::
 
-[]{#Introduction}Introduction
------------------------------
+--------------------------
+
+## Introduction
 
 In this project, you will implement value iteration and Q-learning. You
 will test your agents first on Gridworld (from class), then apply them
@@ -58,101 +52,49 @@ It can be run for one particular test by commands of the form:
 
     python autograder.py -t test_cases/q2/1-bridge-grid
 
-See the [Submission](#Submission) section below and the autograder tutorial in Project 0 for more information about using the autograder.
+See the [Submission](#submission) section below and the autograder tutorial in Project 0 for more information about using the autograder.
 
 The code for this project contains the following files, available as a
 [zip archive](reinforcement.zip).
 
-**Files you\'ll edit:**
-:::
-:::
-:::
 
-`valueIterationAgents.py`
+|----------------------------------------|---------------------------------------------------------------|
+| **Files you\'ll edit**                 | Description                                                   |
+|----------------------------------------|---------------------------------------------------------------|
+| `valueIterationAgents.py`              | A value iteration agent for solving known MDPs.               |
+| `qlearningAgents.py`                   | Q-learning agents for Gridworld, Crawler and Pacman.          |
+| `analysis.py`                          | A file to put your answers to questions given in the project. |
+|----------------------------------------|---------------------------------------------------------------|
 
-A value iteration agent for solving known MDPs.
+|----------------------------------------|---------------------------------------------------|
+| **Files you should read but NOT edit** | Description                                       |
+|----------------------------------------|---------------------------------------------------|
+| `mdp.py`                               | Defines methods on general MDPs.                  |
+| `learningAgents.py`                    | Defines the base classes `ValueEstimationAgent` and `QLearningAgent`, which your agents will extend. |
+| `util.py`                              | Utilities, including `util.Counter`, which is particularly useful for Q-learners.|
+| `gridworld.py`                         | The Gridworld implementation.                     |
+| `featureExtractors.py`                 | Classes for extracting features on (state, action) pairs. Used for the approximate Q-learning agent (in `qlearningAgents.py`). |
+|----------------------------------------|---------------------------------------------------|
 
-`qlearningAgents.py`
 
-Q-learning agents for Gridworld, Crawler and Pacman.
+|--------------------------------|-------------|
+| **Files you can ignore**       | Description |
+|--------------------------------|-------------|
+| `environment.py`               | Abstract class for general reinforcement learning environments. Used by `gridworld.py`. |
+| `graphicsGridworldDisplay.py`  | Gridworld graphical display. |
+| `graphicsUtils.py`             | Graphics utilities.  |
+| `textGridworldDisplay.py`      | Plug-in for the Gridworld text interface. |
+| `crawler.py`                   | The crawler code and test harness. You will run this but not edit it. |
+| `graphicsCrawlerDisplay.py`    | GUI for the crawler robot. |
+| `autograder.py`                | Project autograder |
+| `testParser.py`                | Parses autograder test and solution files |
+| `testClasses.py`               | General autograding test classes |
+| `test_cases/`                  | Directory containing the test cases for each question |
+| `reinforcementTestClasses.py`  | Project 3 specific autograding test classes |
+|----------------------------------------|---------------------------------------------------|
 
-`analysis.py`
 
-A file to put your answers to questions given in the project.
-
-**Files you should read but NOT edit:**
-
-`mdp.py`
-
-Defines methods on general MDPs.
-
-`learningAgents.py`
-
-Defines the base classes `ValueEstimationAgent` and `QLearningAgent`,
-which your agents will extend.
-
-`util.py`
-
-Utilities, including `util.Counter`, which is particularly useful for
-Q-learners.
-
-`gridworld.py`
-
-The Gridworld implementation.
-
-`featureExtractors.py`
-
-Classes for extracting features on (state, action) pairs. Used for the
-approximate Q-learning agent (in `qlearningAgents.py`).
-
-**Files you can ignore:**
-
-`environment.py`
-
-Abstract class for general reinforcement learning environments. Used by
-`gridworld.py`.
-
-`graphicsGridworldDisplay.py`
-
-Gridworld graphical display.
-
-`graphicsUtils.py`
-
-Graphics utilities.
-
-`textGridworldDisplay.py`
-
-Plug-in for the Gridworld text interface.
-
-`crawler.py`
-
-The crawler code and test harness. You will run this but not edit it.
-
-`graphicsCrawlerDisplay.py`
-
-GUI for the crawler robot.
-
-`autograder.py`
-
-Project autograder
-
-`testParser.py`
-
-Parses autograder test and solution files
-
-`testClasses.py`
-
-General autograding test classes
-
-`test_cases/`
-
-Directory containing the test cases for each question
-
-`reinforcementTestClasses.py`
-
-Project 3 specific autograding test classes
-
-**Files to Edit and Submit:** You will fill in portions of
+**Files to Edit and Submit**. You will fill in portions of
 `valueIterationAgents.py`, `qlearningAgents.py`, and `analysis.py`
 during the assignment. Please *do not* change the other files in this
 distribution or submit any of our original files other than these file.
@@ -162,7 +104,7 @@ running `submission_autograder.py`.** It contains the evaluation results
 from your local autograder, and a copy of all your code. You do not need
 to submit any other files. -->
 
-**Evaluation:** Your code will be autograded for technical correctness.
+**Evaluation**. Your code will be autograded for technical correctness.
 Please *do not* change the names of any provided functions or classes
 within the code, or you will wreak havoc on the autograder. However, the
 correctness of your implementation \-- not the autograder\'s judgements
@@ -170,27 +112,26 @@ correctness of your implementation \-- not the autograder\'s judgements
 and grade assignments individually to ensure that you receive due credit
 for your work.
 
-**Academic Dishonesty:** We will be checking your code against other
+**Academic Dishonesty**. We will be checking your code against other
 submissions in the class for logical redundancy. If you copy someone
 else\'s code and submit it with minor changes, we will know. These cheat
 detectors are quite hard to fool, so please don\'t try. We trust you all
 to submit your own work only; *please* don\'t let us down. If you do, we
 will pursue the strongest consequences available to us.
 
-**Getting Help:** You are not alone! If you find yourself stuck on
+**Getting Help**. You are not alone! If you find yourself stuck on
 something, contact the course instructor for help. Office hours and
 the discussion forum are there for your support; please use them. We
 want these projects to be rewarding and instructional, not frustrating
 and demoralizing. But, we don\'t know when or how to help unless you
 ask.
 
-**Discussion:** Please be careful not to post spoilers.
+**Discussion**. Please be careful not to post spoilers.
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Welcome}MDPs
-----------------
+## <a name="welcome">MDPs</a>
+
 
 To get started, run Gridworld in manual control mode, which uses the
 arrow keys:
@@ -229,13 +170,10 @@ and any arrays are indexed by `[x][y]`, with `'north'` being the
 direction of increasing `y`, etc. By default, most transitions will
 receive a reward of zero, though you can change this with the living
 reward option (`-r`).
-:::
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q1}Question 1 (4 points): Value Iteration
----------------------------------------------
+## <a name="Q1">Question 1</a> (4 points): Value Iteration
 
 Recall the value iteration state update equation:
 
@@ -313,13 +251,12 @@ iterations should give you this output:
 *Grading:* Your value iteration agent will be graded on a new grid. We
 will check your values, Q-values, and policies after fixed numbers of
 iterations and at convergence (e.g. after 100 iterations).
-:::
+
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q2}Question 2 (1 point): Bridge Crossing Analysis
------------------------------------------------------
+
+## <a name="Q2">Question 2</a> (1 point): Bridge Crossing Analysis
 
 `BridgeGrid` is a grid world map with the a low-reward terminal state
 and a high-reward terminal state separated by a narrow \"bridge\", on
@@ -341,13 +278,12 @@ parameters, and that with this change, a correct value iteration agent
 should cross the bridge. To check your answer, run the autograder:
 
     python autograder.py -q q2
-:::
+
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q3}Question 3 (5 points): Policies
---------------------------------------
+
+## <a name="Q3">Question 3</a> (5 points): Policies
 
 Consider the `DiscountGrid` layout, shown below. This grid has two
 terminal states with positive payoff (in the middle row), a close exit
@@ -401,13 +337,10 @@ each state.
 
 *Grading:* We will check that the desired policy is returned in each
 case.
-:::
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q4}Question 4 (1 point): Asynchronous Value Iteration
----------------------------------------------------------
+## <a name="Q4">Question 4</a> (1 point): Asynchronous Value Iteration
 
 Write a value iteration agent in `AsynchronousValueIterationAgent`,
 which has been partially specified for you in `valueIterationAgents.py`.
@@ -468,13 +401,10 @@ after the 10 rounds of execution finish) are quite close.
 *Grading:* Your value iteration agent will be graded on a new grid. We
 will check your values, Q-values, and policies after fixed numbers of
 iterations and at convergence (e.g., after 1000 iterations).
-:::
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q5}Question 5 (3 points): Prioritized Sweeping Value Iteration
-------------------------------------------------------------------
+## <a name="Q5">Question 5</a> (3 points): Prioritized Sweeping Value Iteration
 
 You will now implement `PrioritizedSweepingValueIterationAgent`, which
 has been partially specified for you in `valueIterationAgents.py`. Note
@@ -550,13 +480,10 @@ using the following command.
 graded on a new grid. We will check your values, Q-values, and policies
 after fixed numbers of iterations and at convergence (e.g., after 1000
 iterations).
-:::
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q6}Question 6 (4 points): Q-Learning
-----------------------------------------
+## <a name="Q6">Question 6</a> (4 points): Q-Learning
 
 Note that your value iteration agent does not actually learn from
 experience. Rather, it ponders its MDP model to arrive at a complete
@@ -609,13 +536,10 @@ is presented with the same set of examples. To grade your
 implementation, run the autograder:
 
     python autograder.py -q q6
-:::
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q7}Question 7 (2 points): Epsilon Greedy
---------------------------------------------
+## <a name="Q7">Question 7</a> (2 points): Epsilon Greedy
 
 Complete your Q-learning agent by implementing epsilon-greedy action
 selection in `getAction`, meaning it chooses random actions an epsilon
@@ -665,13 +589,10 @@ the agent\'s policies and actions. Note that the step delay is a
 parameter of the simulation, whereas the learning rate and epsilon are
 parameters of your learning algorithm, and the discount factor is a
 property of the environment.
-:::
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q8}Question 8 (1 point): Bridge Crossing Revisited
-------------------------------------------------------
+## <a name="Q8">Question 8</a> (1 point): Bridge Crossing Revisited
 
 First, train a completely random Q-learner with the default learning
 rate on the noiseless BridgeGrid for 50 episodes and observe whether it
@@ -694,13 +615,10 @@ degrees.
 To grade your answer, run the autograder:
 
     python autograder.py -q q8
-:::
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q9}Question 9 (1 point): Q-Learning and Pacman
---------------------------------------------------
+## <a name="Q9">Question 9</a> (1 point): Q-Learning and Pacman
 
 Time to play some Pacman! Pacman will play games in two phases. In the
 first phase, *training*, Pacman will begin to learn about the values of
@@ -783,13 +701,10 @@ Pacman fails to win on larger layouts because each board configuration
 is a separate state with separate Q-values. He has no way to generalize
 that running into a ghost is bad for all positions. Obviously, this
 approach will not scale.
-:::
 
 ------------------------------------------------------------------------
 
-::: {.project}
-[]{#Q10}Question 10 (3 points): Approximate Q-Learning
-------------------------------------------------------
+## <a name="Q10">Question 10</a> (3 points): Approximate Q-Learning
 
 Implement an approximate Q-learning agent that learns weights for
 features of states, where many states might share the same features.
@@ -805,7 +720,7 @@ of features and values; all omitted features have value zero.
 
 The approximate Q-function takes the following form
 
-\\(Q(s,a) = \\sum\\limits\_{i=1}\^n f\_i(s,a) w\_i \\)
+Q(s, a) = Σ Q(s, a) = \\sum\\limits\_{i=1}\^n f\_i(s,a) w\_i \\)
 
 \
 where each weight w~i~ is associated with a particular feature
