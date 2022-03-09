@@ -1,4 +1,4 @@
-# Project 3: Reinforcement Learning {#project-3-reinforcement-learning .project_title}
+# Project 3: Reinforcement Learning
 
 Version 1.001. Last Updated: 9 Mar 2022.
 
@@ -66,7 +66,7 @@ The code for this project contains the following files, available as a
 | `analysis.py`                          | A file to put your answers to questions given in the project. |
 
 
-| Files to read but NOT edit             | Description                                       |
+| Files you should read but DO NOT edit these    | Description                                       |
 |----------------------------------------|---------------------------------------------------|
 | `mdp.py`                               | Defines methods on general MDPs.                  |
 | `learningAgents.py`                    | Defines the base classes `ValueEstimationAgent` and `QLearningAgent`, which your agents will extend. |
