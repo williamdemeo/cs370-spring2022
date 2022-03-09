@@ -710,8 +710,8 @@ Write your implementation in `ApproximateQAgent` class in
 `qlearningAgents.py`, which is a subclass of `PacmanQAgent`.
 
 *Note:* Approximate Q-learning assumes the existence of a feature
-function f(s,a) over state and action pairs, which yields a vector
-(f₁(s,a), …, fᵢ(s,a), …, fₙ(s,a)) of feature values. We provide
+function 𝑓(𝑠, 𝑎) over state and action pairs, which yields a vector
+(𝑓₁(𝑠, 𝑎), …, 𝑓ᵢ(𝑠, 𝑎), …, 𝑓ₙ(𝑠, 𝑎)) of feature values. We provide
 feature functions for you in `featureExtractors.py`. Feature vectors are
 `util.Counter` (like a dictionary) objects containing the non-zero pairs
 of features and values; all omitted features have value zero.
@@ -722,7 +722,7 @@ The approximate Q-function takes the following form
 ![qfunction](images/approxQ.png)
 
 where each weight wᵢ is associated with a particular feature
-fᵢ(s,a). In your code, you should implement the weight vector as a
+𝑓ᵢ(𝑠, 𝑎). In your code, you should implement the weight vector as a
 dictionary mapping features (which the feature extractors will return)
 to weight values. You will update your weight vectors similarly to how
 you updated Q-values:
@@ -733,8 +733,8 @@ difference = r + γ max \{Q(s', a'): a' ∈ Actions\} - Q(s,a) -->
 ![approxqupdate](images/approxQupdate.png)
 
 
-Note that the *difference* term is the same as in normal Q-learning,
-and *r* is the experienced reward.
+Note that the 𝑑𝑖𝑓𝑓𝑒𝑟𝑒𝑛𝑐𝑒 term is the same as in normal Q-learning,
+and 𝑟 is the experienced reward.
 
 By default, `ApproximateQAgent` uses the `IdentityExtractor`, which
 assigns a single feature to every `(state,action)` pair. With this
