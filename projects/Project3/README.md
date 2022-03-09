@@ -188,9 +188,9 @@ phase. `ValueIterationAgent` takes an MDP on construction and runs value
 iteration for the specified number of iterations before the constructor
 returns.
 
-Value iteration computes k-step estimates of the optimal values, Vₖ.
+Value iteration computes k-step estimates of the optimal values, 𝑉ₖ.
 In addition to running value iteration, implement the following methods
-for `ValueIterationAgent` using Vₖ.
+for `ValueIterationAgent` using 𝑉ₖ.
 
 -   `computeActionFromValues(state)` computes the best action according
     to the value function given by `self.values`.
@@ -203,15 +203,14 @@ squares, Q-values are numbers in square quarters, and policies are
 arrows out from each square.
 
 *Important:* Use the \"batch\" version of value iteration where each
-vector Vₖ is computed from a fixed vector Vₖ₋₁ (like in lecture),
+vector 𝑉ₖ is computed from a fixed vector 𝑉ₖ₋₁ (like in lecture),
 not the \"online\" version where one single weight vector is updated in
 place. This means that when a state\'s value is updated in iteration k
 based on the values of its successor states, the successor state values
 used in the value update computation should be those from iteration k-1
 (even if some of the successor states had already been updated in
 iteration k). The difference is discussed in [Sutton &
-Barto](http://www.cs.ualberta.ca/~sutton/book/ebook/node41.html) in the
-6th paragraph of chapter 4.1.
+Barto](http://www.cs.ualberta.ca/~sutton/book/ebook/node41.html) in §4.1 (¶ 6).
 
 *Note:* A policy synthesized from values of depth k (which reflect the
 next k rewards) will actually reflect the next k+1 rewards (i.e. you
