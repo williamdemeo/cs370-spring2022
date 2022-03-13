@@ -310,10 +310,10 @@ string `'NOT POSSIBLE'`.
 
 Here are the optimal policy types you should attempt to produce:
 
-a.  Prefer the close exit (+1), risking the cliff (-10)
-b.  Prefer the close exit (+1), but avoiding the cliff (-10)
-c.  Prefer the distant exit (+10), risking the cliff (-10)
-d.  Prefer the distant exit (+10), avoiding the cliff (-10)
+a.  Prefer the close exit (+1), risking the cliff (-10)  
+b.  Prefer the close exit (+1), but avoiding the cliff (-10)  
+c.  Prefer the distant exit (+10), risking the cliff (-10)  
+d.  Prefer the distant exit (+10), avoiding the cliff (-10)  
 e.  Avoid both exits and the cliff (so an episode should never
     terminate)
 
