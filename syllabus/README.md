@@ -15,31 +15,47 @@ The links in the last column point to the AI lectures at UC Berkeley on the same
 The Berkeley course presented the material in different order than ours. In case you want to watch all of the Berkeley lectures in their original order, I made
 a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEhIMG2w8pYLN9u) just for you! :)
 
+[Agents and Environments]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec02-AgentsAndEnvironments.pptx
+[Uninformed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec03-Search.pptx
+[Informed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec04-InformedSearch.pptx
+[A* Search and Heuristics]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec05-AstarSearchAndHeuristics.pptx
+[CSP I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec06-CSP-I.pptx 
+[CSP II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec07-CSP-II.pptx
+[Adversarial Search I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec08-AdversarialSearch-I.pptx
+[Adversarial Search II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec09-AdversarialSearch-II.pptx
+[Markov Decision Processes I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec10-MDP-I.pptx
+[Markov Decision Processes II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec11-MDP-II.pptx
+[Reinforcement Learning I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec12-RL-I.pptx
+[Reinforcement Learning II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec13-RL-II.pptx
+[Probability]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec14-Probability.pptx
+[Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec15-BayesNets-I.pptx
+[Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec16-BayesNets-II.pptx
+
 
 | **Week** | **Date** | **Topic**                         | **Reading**      | **Homework**                                               | **Project Due Dates**          | **UCB Videos**                  | **UCB Notes**  |
 |----------|----------|-----------------------------------|------------------|------------------------------------------------------------|--------------------------------|---------------------------------|----------------|
 | **1**    | 18 Jan   | Intro to AI                       | Ch 1             | [HW 0 (canvas)][] Preliminary Survey; due Wed 26 Jan 23:59 |                                | [Intro to AI (YouTube)][]       |                |
-|          | 21 Jan   | Rational Agents                   | Ch 2             | [HW 1][] Agents; due Wed 2 Feb 23:59                       |                                |                                 |                |
-| **2**    | 25 Jan   | State Spaces, Uninformed Search   | 3.1--3.4         |                                                            |                                | [Uninformed Search (YouTube)][] |                |
-|          | 28 Jan   | Search I                          | 3.5, 3.6         | [HW 2][] Search; due Wed 9 Feb 23:59                       |                                | [Informed Search (YouTube)][]   |                |
-| **3**    | 1 Feb    | Search II                         | 4.1, 4.2         |                                                            |                                |                                 |                |
-|          | 4 Feb    | CSP I                             | 6.1, 6.2         | [HW 3][] CSP; due Wed 16 Feb 23:59                         | [Project 0][] **Due by 23:59** | [CSP I (YouTube)][]             | [Note 2][]     |
-| **4**    | 8 Feb    | CSP II                            | 6.3--6.5         |                                                            |                                | [CSP II (YouTube)][]            | [CSP applet][] |
-|          | 11 Feb   | Search with Other Agents I        | 5.2--5.5         | [HW 4][] Games; due Wed 23 Feb 23:59                       |                                | [Game Trees I (YouTube)][]      | [Note 3][]     | 
-| **5**    | 15 Feb   | Search with Other Agents II       | 16.1--16.3       |                                                            |                                | [Game Trees II (YouTube)][]     |                |
-|          | 18 Feb   | Markov Decision Processes I       | 17.1--17.3       | [HW 5][] Markov Decision Processes; due Wed 2 Mar 23:59    | [Project 1][] **Due by 23:59** | [MDP I (YouTube)][]             | [Note 4][]     |
-| **6**    | 22 Feb   | Markov Decision Processes II      |                  |                                                            |                                | [MDP II (YouTube)][]            |                |
-|          | 25 Feb   | Reinforcement Learning I          | Ch 21            | [HW 6][] Reinforcement Learning Wed 9 Mar 23:59           | [Project 1 (part 2)][] **Due by 23:59** | [RL I (YouTube)][]     | [Note 5][]     |
-| **7**    | 1 Mar    | Reinforcement Learning II         | Ch 22            |                                                            |                                | [RL II (YouTube)][]             |                |
-|          | 4 Mar    | Probability                       | 13.1--13.5       | [HW 7][] Prob & Bayes Nets; due Wed 16 Mar 23:59           | [Project 2][] **Due by 23:59** | [Probability (YouTube)][]       | [Note 6][]     |
-| **8**    | 8 Mar    | Bayesian Networks: Representation | 14.1, 14.2       |                                                            |                                | [Bayes Nets (YouTube)][]        |                |
-|          | 11 Mar   | Bayesian Networks: Inference      | 14.4             | [HW 8][]. Bayes Nets & HMMs; due Wed 30 Mar 23:59          |                                | [BN: inference (YouTube)][]     | |
+|          | 21 Jan   | [Agents and Environments][]       | Ch 2             | [HW 1][] Agents; due Wed 2 Feb 23:59                       |                                |                                 |                |
+| **2**    | 25 Jan   | [Uninformed Search][]             | 3.1--3.4         |                                                            |                                | [Uninformed Search (YouTube)][] |                |
+|          | 28 Jan   | [Informed Search][]               | 3.5, 3.6         | [HW 2][] Search; due Wed 9 Feb 23:59                       |                                | [Informed Search (YouTube)][]   |                |
+| **3**    | 1 Feb    | [A* Search and Heuristics][]      | 4.1, 4.2         |                                                            |                                |                                 |                |
+|          | 4 Feb    | [CSP I][]                         | 6.1, 6.2         | [HW 3][] CSP; due Wed 16 Feb 23:59                         | [Project 0][] **Due by 23:59** | [CSP I (YouTube)][]             | [Note 2][]     |
+| **4**    | 8 Feb    | [CSP II][]                        | 6.3--6.5         |                                                            |                                | [CSP II (YouTube)][]            | [CSP applet][] |
+|          | 11 Feb   | [Adversarial Search I][]          | 5.2--5.5         | [HW 4][] Games; due Wed 23 Feb 23:59                       |                                | [Game Trees I (YouTube)][]      | [Note 3][]     | 
+| **5**    | 15 Feb   | [Adversarial Search II][]         | 16.1--16.3       |                                                            |                                | [Game Trees II (YouTube)][]     |                |
+|          | 18 Feb   | [Markov Decision Processes I][]   | 17.1--17.3       | [HW 5][] Markov Decision Processes; due Wed 2 Mar 23:59    | [Project 1][] **Due by 23:59** | [MDP I (YouTube)][]             | [Note 4][]     |
+| **6**    | 22 Feb   | [Markov Decision Processes II][]  |                  |                                                            |                                | [MDP II (YouTube)][]            |                |
+|          | 25 Feb   | [Reinforcement Learning I][]      | Ch 21            | [HW 6][] Reinforcement Learning Wed 9 Mar 23:59           | [Project 1 (part 2)][] **Due by 23:59** | [RL I (YouTube)][]     | [Note 5][]     |
+| **7**    | 1 Mar    | [Reinforcement Learning II][]     | Ch 22            |                                                            |                                | [RL II (YouTube)][]             |                |
+|          | 4 Mar    | [Probability][]                   | 13.1--13.5       | [HW 7][] Prob & Bayes Nets; due Wed 16 Mar 23:59           | [Project 2][] **Due by 23:59** | [Probability (YouTube)][]       | [Note 6][]     |
+| **8**    | 8 Mar    | [Bayes Net I][]                   | 14.1, 14.2       |                                                            |                                | [Bayes Nets (YouTube)][]        |                |
+|          | 11 Mar   | [Bayes Nets II][]                 | 14.4             | [HW 8][]. Bayes Nets & HMMs; due Wed 30 Mar 23:59          |                                | [BN: inference (YouTube)][]     | |
 | **9**    | 15 Mar   | Spring Recess                     |                  |                                                            |                                |                                 | |
 |          | 18 Mar   | Spring Recess                     |  [Jordan 2.1][]  (optional) |                                                 |                                |                                 | |
 | **10**   | 22 Mar   | Review                            |                  |                                                            | [Project 3][] **Due by 23:59** |                                 | |
 |          | 25 Mar   | EXAM (scope: 18 Jan--11 Mar)      |                  |                                                            |                                |                                 | |
-| **11**   | 29 Mar   | [Bayesian Networks: Independence][]   | 14.1, 14.2, 14.4 |                                                            |                                |                                 | |
-|          | 1 Apr    | [Bayesian Networks: Sampling][]   | 14.4-5           | [HW 9][]. Utility, Decision Nets; due Wed 13 Apr 23:59     |                                | [BN: sampling (YouTube)][]      | [Note 7][] |
+| **11**   | 29 Mar   | [Bayes Nets III][]                | 14.1, 14.2, 14.4 |                                                            |                                |                                 | |
+|          | 1 Apr    | [Bayes Nets IV][]                 | 14.4-5           | [HW 9][]. Utility, Decision Nets; due Wed 13 Apr 23:59     |                                | [BN: sampling (YouTube)][]      | [Note 7][] |
 | **12**   | 5 Apr    | [Decision Networks and VPI][]     | 16.5, 16.6       |                                                            |                                | [Decision Networks (YouTube)][] | |
 |          | 8 Apr    | [Hidden Markov Models][]          | 15.2--15.6       | [HW 10][]. HMM, MDP; due Wed 20 Apr 23:59                  |                                | [HMM (YouTube)][]               | [Note 8][]   |
 | **13**   | 12 Apr   | [Particle filtering][]            | 15.2--15.6       |                                                            |                                |                                 |              |
@@ -140,28 +156,31 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [ML: Decision Trees (YouTube)]: https://youtu.be/svW3I0cqfpw
 [Robotics (YouTube)]: https://youtu.be/MxS1aYvYNNc
 
-[CSP I]: lec04.pptx
-[CSP II]: lec05.pptx
-[Search with Other Agents I]: lec06.pptx
-[Search with Other Agents II]: lec07.pptx
-[Markov Decision Processes I ]: lec08.pptx
-[Markov Decision Processes II]: lec09.pptx
-[Reinforcement Learning I]: lec10.pptx
-[Reinforcement Learning II]: lec11.pptx
-[Probability]: lec12.pptx
-[Bayesian Networks: Representation]: lec13.pptx
-[Bayesian Networks: Inference]: lec14.pptx
-[Bayesian Networks: Independence]: lec15.pptx
-[Bayesian Networks: Sampling]: lec16.pptx
-[Decision Networks and VPI]: lec17.pptx
-[Hidden Markov Models]: lec18.pptx
-[Particle filtering]: lec19.pptx
-[Machine Learning: Naïve Bayes]: lec20.pptx
-[Machine Learning: Perceptrons and Logistic Regression]: lec21.pptx
-[Machine Learning: Optimization]: lec22.pptx
-[Machine Learning: Neural Networks]: lec23.pdf
+[Agents and Environments]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec02-AgentsAndEnvironments.pptx
+[Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec03-Search.pptx
+[Informed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec04-InformedSearch.pptx
+[A* Search and Heuristics]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec05-AstarSearchAndHeuristics.pptx
+[CSP I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec06-CSP-I.pptx 
+[CSP II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec07-CSP-II.pptx
+[Adversarial Search I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec08-AdversarialSearch-I.pptx
+[Adversarial Search II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec09-AdversarialSearch-II.pptx
+[Markov Decision Processes I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec10-MDP-I.pptx
+[Markov Decision Processes II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec11-MDP-II.pptx
+[Reinforcement Learning I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec12-RL-I.pptx
+[Reinforcement Learning II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec13-RL-II.pptx
+[Probability]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec14-Probability.pptx
+[Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec15-BayesNets-I.pptx
+[Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec16-BayesNets-II.pptx
+
+[Decision Networks and VPI]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Hidden Markov Models]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Particle filtering]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Machine Learning: Naïve Bayes]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Machine Learning: Perceptrons and Logistic Regression]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Machine Learning: Optimization]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Machine Learning: Neural Networks]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Advanced Applications: Games and Robotics]: https://www.dropbox.com/s/9rps3i3ad3noljn/fa21-lec24--games-and-robotics.pptx?dl=0
-[Conclusion]: lec25.pptx
+[Conclusion]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 
 [Note 1]: https://inst.eecs.berkeley.edu/~cs188/fa21/assets/notes/fa20-note01.pdf
 [Note 2]: https://inst.eecs.berkeley.edu/~cs188/fa21/assets/notes/note02.pdf">
