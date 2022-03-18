@@ -30,6 +30,8 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [Probability]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec14-Probability.pptx
 [Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec15-BayesNets-I.pptx
 [Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec16-BayesNets-II.pptx
+[Bayes Nets III]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Bayes Nets IV]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 
 
 | **Week** | **Date** | **Topic**                         | **Reading**      | **Homework**                                               | **Project Due Dates**          | **UCB Videos**                  | **UCB Notes**  |
@@ -48,15 +50,15 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 |          | 25 Feb   | [Reinforcement Learning I][]      | Ch 21            | [HW 6][] Reinforcement Learning Wed 9 Mar 23:59           | [Project 1 (part 2)][] **Due by 23:59** | [RL I (YouTube)][]     | [Note 5][]     |
 | **7**    | 1 Mar    | [Reinforcement Learning II][]     | Ch 22            |                                                            |                                | [RL II (YouTube)][]             |                |
 |          | 4 Mar    | [Probability][]                   | 13.1--13.5       | [HW 7][] Prob & Bayes Nets; due Wed 16 Mar 23:59           | [Project 2][] **Due by 23:59** | [Probability (YouTube)][]       | [Note 6][]     |
-| **8**    | 8 Mar    | [Bayes Net I][]                   | 14.1, 14.2       |                                                            |                                | [Bayes Nets (YouTube)][]        |                |
+| **8**    | 8 Mar    | [Bayes Nets I][]                   | 14.1, 14.2       |                                                            |                                | [Bayes Nets (YouTube)][]        |                |
 |          | 11 Mar   | [Bayes Nets II][]                 | 14.4             | [HW 8][]. Bayes Nets & HMMs; due Wed 30 Mar 23:59          |                                | [BN: inference (YouTube)][]     | |
 | **9**    | 15 Mar   | Spring Recess                     |                  |                                                            |                                |                                 | |
 |          | 18 Mar   | Spring Recess                     |  [Jordan 2.1][]  (optional) |                                                 |                                |                                 | |
 | **10**   | 22 Mar   | Review                            |                  |                                                            | [Project 3][] **Due by 23:59** |                                 | |
 |          | 25 Mar   | EXAM (scope: 18 Jan--11 Mar)      |                  |                                                            |                                |                                 | |
 | **11**   | 29 Mar   | [Bayes Nets III][]                | 14.1, 14.2, 14.4 |                                                            |                                |                                 | |
-|          | 1 Apr    | [Bayes Nets IV][]                 | 14.4-5           | [HW 9][]. Utility, Decision Nets; due Wed 13 Apr 23:59     |                                | [BN: sampling (YouTube)][]      | [Note 7][] |
-| **12**   | 5 Apr    | [Decision Networks and VPI][]     | 16.5, 16.6       |                                                            |                                | [Decision Networks (YouTube)][] | |
+|          | 1 Apr    | [Bayes Nets IV][]                 | 14.4-5           | [HW 9][]. Utility, Decision Nets; due Wed 13 Apr 23:59     |                                | [BN: sampling (YouTube)][]      | |
+| **12**   | 5 Apr    | [Decision Networks and VPI][]     | 16.5, 16.6       |                                                            |                                | [Decision Networks (YouTube)][] | [Note 7][] |
 |          | 8 Apr    | [Hidden Markov Models][]          | 15.2--15.6       | [HW 10][]. HMM, MDP; due Wed 20 Apr 23:59                  |                                | [HMM (YouTube)][]               | [Note 8][]   |
 | **13**   | 12 Apr   | [Particle filtering][]            | 15.2--15.6       |                                                            |                                |                                 |              |
 |          | 15 Apr   | Good Friday (no classes)          | 19.6, 19.7       | [HW 11][]. Machine Learning; due Wed 27 May 23:59          |                                |                                 |              |
