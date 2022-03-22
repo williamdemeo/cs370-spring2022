@@ -165,6 +165,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [Particle filtering]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Machine Learning: Naïve Bayes]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Machine Learning: Perceptrons and Logistic Regression]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Machine Learning: Perceptrons, Logit]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Machine Learning: Optimization]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Machine Learning: Neural Networks]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Advanced Applications: Games and Robotics]: https://www.dropbox.com/s/9rps3i3ad3noljn/fa21-lec24--games-and-robotics.pptx?dl=0
