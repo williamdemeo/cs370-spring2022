@@ -174,8 +174,9 @@ Tiktoking, Tweeting, Tindering, Facebooking, Instagramming, Snapchatting, Whatsa
 
 The breakdown of the final course grade is as follows:  
 
-+ Homework: 30 points total  
-+ Two midterm exams: 40 points (20 each)  
++ Homework: 25 points total  
++ Projects: 25 points total  
++ Midterm exam: 20 points  
 + Final exam: 30 points  
 
 At the end of the semester, letter grades will be assigned roughly according to
@@ -201,14 +202,10 @@ performance.
 
 **All exams take place in our usual classroom**, [KUPF 107][].
 
-+ **MIDTERM EXAM 1**  
-**Topics**. TBA  
-**DATE**. TBA
++ **MIDTERM EXAM**  
+**Topics**. [Agents and Environments][], [Uninformed Search][], [Informed Search][], [A* Search and Heuristics][], [CSP I][], [CSP II][], [Adversarial Search I][], [Adversarial Search II][], [Markov Decision Processes I][], [Markov Decision Processes II][], [Reinforcement Learning I][], [Reinforcement Learning II][], [Probability][], [Bayes Nets I][]  
+**DATE**. Friday 25 March
   
-+ **MIDTERM EXAM 2**  
-**Topics**. TBA  
-**DATE**. TBA
-
 + **FINAL EXAM** (cumulative)  
 **DATE**. TBA  
 **TIME**. TBA
@@ -307,3 +304,18 @@ early in the semester in order to have their learning needs appropriately met.
 
 [Lean]: https://leanprover.github.io/
 [KUPF 107]: https://goo.gl/maps/GjhP3cjrMAJSzVFt5
+[Agents and Environments]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec02-AgentsAndEnvironments.pptx
+[Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec03-Search.pptx
+[Informed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec04-InformedSearch.pptx
+[A* Search and Heuristics]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec05-AstarSearchAndHeuristics.pptx
+[CSP I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec06-CSP-I.pptx 
+[CSP II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec07-CSP-II.pptx
+[Adversarial Search I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec08-AdversarialSearch-I.pptx
+[Adversarial Search II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec09-AdversarialSearch-II.pptx
+[Markov Decision Processes I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec10-MDP-I.pptx
+[Markov Decision Processes II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec11-MDP-II.pptx
+[Reinforcement Learning I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec12-RL-I.pptx
+[Reinforcement Learning II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec13-RL-II.pptx
+[Probability]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec14-Probability.pptx
+[Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec15-BayesNets-I.pptx
+[Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec16-BayesNets-II.pptx
