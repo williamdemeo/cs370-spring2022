@@ -19,7 +19,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 
 | **Week** | **Date** | **Topic**                         | **Reading**      | **Homework**                             | **Project Due Dates** | **UCB Videos**                  | **UCB Notes**      | **Alternative Notes** |
 |----------|----------|-----------------------------------|------------------|------------------------------------------|-----------------------|---------------------------------|--------------------|-----------------------|
-| **1**    | 18 Jan   | [Intro to AI (UCB slides)][]      | Ch 1             | [HW 0][] Survey, due Wed 26 Jan 23:59    |                       | [Intro to AI (YouTube)][]       |                    | |
+| **1**    | 18 Jan   | [Intro to AI (UCB version)][]      | Ch 1             | [HW 0][] Survey, due Wed 26 Jan 23:59    |                       | [Intro to AI (YouTube)][]       |                    | |
 |          | 21 Jan   | [Agents and Environments][]       | Ch 2             | [HW 1][] Agents, due Wed 2 Feb 23:59     |                       |                                 |                    | |
 | **2**    | 25 Jan   | [Uninformed Search][]             | 3.1--3.4         |                                          |                       | [Uninformed Search (YouTube)][] | [Note 1: Search][] | [Note 1 (Fa '18)][]|
 |          | 28 Jan   | [Informed Search][]               | 3.5, 3.6         | [HW 2][] Search, due Wed 9 Feb 23:59     |                       | [Informed Search (YouTube)][]   |                    | |
@@ -135,7 +135,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [Robotics (YouTube)]: https://youtu.be/MxS1aYvYNNc
 
 <!-- LINKS TO LECTURE SLIDES -->
-[Intro to AI (UCB slides)]: https://inst.eecs.berkeley.edu/~cs188/sp22/assets/slides/Lecture1.pptx
+[Intro to AI (UCB version)]: https://inst.eecs.berkeley.edu/~cs188/sp22/assets/slides/Lecture1.pptx
 [Agents and Environments]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec02-AgentsAndEnvironments.pptx
 [Uninformed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec03-Search.pptx
 [Informed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec04-InformedSearch.pptx
@@ -170,7 +170,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 <!-- MISC LINKS -->
 [Jordan 2.1]: https://github.com/williamdemeo/cs370-spring2022/tree/master/notes/chapter2.pdf
 [KUPF 107]: https://goo.gl/maps/GjhP3cjrMAJSzVFt5
-[edX AI course, week 10: Logical Agents]: https://learning.edx.org/course/course-v1:ColumbiaX+CSMM.101x+2T2018/home
+[edX AI wk10: Logical Agents]: https://learning.edx.org/course/course-v1:ColumbiaX+CSMM.101x+2T2018/home
 
 
 
