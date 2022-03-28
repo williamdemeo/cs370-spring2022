@@ -19,7 +19,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 
 | **Week** | **Date** | **Topic**                         | **Reading**      | **Homework**                             | **Project Due Dates** | **UCB Videos**                  | **UCB Notes**      | **Alternative Notes** |
 |----------|----------|-----------------------------------|------------------|------------------------------------------|-----------------------|---------------------------------|--------------------|-----------------------|
-| **1**    | 18 Jan   | Intro to AI                       | Ch 1             | [HW 0][] Survey, due Wed 26 Jan 23:59    |                       | [Intro to AI (YouTube)][]       |                    | |
+| **1**    | 18 Jan   | [Intro to AI (UCB slides)][]      | Ch 1             | [HW 0][] Survey, due Wed 26 Jan 23:59    |                       | [Intro to AI (YouTube)][]       |                    | |
 |          | 21 Jan   | [Agents and Environments][]       | Ch 2             | [HW 1][] Agents, due Wed 2 Feb 23:59     |                       |                                 |                    | |
 | **2**    | 25 Jan   | [Uninformed Search][]             | 3.1--3.4         |                                          |                       | [Uninformed Search (YouTube)][] | [Note 1: Search][] | [Note 1 (Fa '18)][]|
 |          | 28 Jan   | [Informed Search][]               | 3.5, 3.6         | [HW 2][] Search, due Wed 9 Feb 23:59     |                       | [Informed Search (YouTube)][]   |                    | |
@@ -27,7 +27,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 |          | 4 Feb    | [CSP I][]                         | 6.1, 6.2         | [HW 3][] CSP, due Wed 16 Feb 23:59       | [Project 0][] **Due** | [CSP I (YouTube)][]             | [Note 2: CSP][]    | |
 | **4**    | 8 Feb    | [CSP II][]                        | 6.3--6.5         |                                          |                       | [CSP II (YouTube)][]            | [CSP applet][]     | |
 |          | 11 Feb   | [Adversarial Search I][]          | 5.2--5.5         | [HW 4][] Games, due Wed 23 Feb 23:59     |                       | [Game Trees I (YouTube)][]      | [Note 3: Games][]  | [Note 3 (Fa '18)][]| 
-| **5**    | 15 Feb   | [Adversarial Search II][]         | 16.1--16.3       |                                          |                       | [Game Trees II (YouTube)][]     | [Note 4 Nondeterministic Search][] | |
+| **5**    | 15 Feb   | [Adversarial Search II][]         | 16.1--16.3       |                                          |                       | [Game Trees II (YouTube)][]     | [Note 4: Nondeterministic Search][] | |
 |          | 18 Feb   | [Markov Decision Processes I][]   | 17.1--17.3       | [HW 5][] MDP, due Wed 2 Mar 23:59        | [Project 1][] **Due** | [MDP I (YouTube)][]             |                    | |
 | **6**    | 22 Feb   | [Markov Decision Processes II][]  |                  |                                          |                       | [MDP II (YouTube)][]            |                    | |
 |          | 25 Feb   | [Reinforcement Learning I][]      | Ch 21            | [HW 6][] RL, due Wed 9 Mar 23:59         |                       | [RL I (YouTube)][]              | [Note 5: Reinforcement Learning][] | |
@@ -93,7 +93,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 
 <!-- HW LINKS -->
 
-[HW 0 (canvas)]: https://njit.instructure.com/courses/22602/quizzes
+[HW 0]: https://njit.instructure.com/courses/22602/quizzes
 [HW 1]: https://www.gradescope.com/courses/361553
 [HW 2]: https://www.gradescope.com/courses/361553
 [HW 3]: https://www.gradescope.com/courses/361553
@@ -107,7 +107,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [HW 11]: https://www.gradescope.com/courses/361553
 
 
-<!-- LINKS TO UCB LECTURES -->
+<!-- LINKS TO UCB LECTURE YOUTUBE VIDEOS -->
 
 [Intro to AI (YouTube)]: https://www.youtube.com/watch?v=16Dir4QqCUg
 [Uninformed Search (YouTube)]: https://youtu.be/-Xx0QSFYfIQ
@@ -135,7 +135,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [Robotics (YouTube)]: https://youtu.be/MxS1aYvYNNc
 
 <!-- LINKS TO LECTURE SLIDES -->
-
+[Intro to AI (UCB slides)]: https://inst.eecs.berkeley.edu/~cs188/sp22/assets/slides/Lecture1.pptx
 [Agents and Environments]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec02-AgentsAndEnvironments.pptx
 [Uninformed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec03-Search.pptx
 [Informed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec04-InformedSearch.pptx
@@ -151,9 +151,10 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [Probability]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec14-Probability.pptx
 [Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec15-BayesNets-I.pptx
 [Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec16-BayesNets-II.pptx
-[Bayes Nets III]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[Bayes Nets IV]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-
+[Bayes Nets III]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/comingsoon.md
+[Bayes Nets IV]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/comingsoon.md
+[Logical Agents]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/comingsoon.md
+[Inference in First Order Logic]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/comingsoon.md
 
 [Decision Networks and VPI]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Hidden Markov Models]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
@@ -162,7 +163,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [ML: Perceptrons and Logistic Regression]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [ML: Perceptrons, Logit]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [ML: Optimization]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[ML: Neural Networks]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[ML: Neural Nets]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Advanced Applications: Games and Robotics]: https://www.dropbox.com/s/9rps3i3ad3noljn/fa21-lec24--games-and-robotics.pptx?dl=0
 [Conclusion]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 
