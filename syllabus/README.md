@@ -151,10 +151,10 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [Probability]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec14-Probability.pptx
 [Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec15-BayesNets-I.pptx
 [Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec16-BayesNets-II.pptx
-[Bayes Nets III]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/comingsoon.md
-[Bayes Nets IV]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/comingsoon.md
-[Logical Agents]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/comingsoon.md
-[Inference in First Order Logic]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/comingsoon.md
+[Bayes Nets III]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Bayes Nets IV]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Logical Agents]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Inference in First Order Logic]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
 
 [Decision Networks and VPI]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
 [Hidden Markov Models]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
