@@ -147,23 +147,23 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [Reinforcement Learning I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec12-RL-I.pptx
 [Reinforcement Learning II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec13-RL-II.pptx
 [Probability]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec14-Probability.pptx
-[Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec15-BayesNets-I.pptx
-[Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec16-BayesNets-II.pptx
-[Bayes Nets III]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
-[Bayes Nets IV]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec15-BayesNets-I.pptx
+[Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec16-BayesNets-II.pptx
+[Bayes Nets III]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec17-BayesNets-III.pptx
+[Bayes Nets IV]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec18-BayesNets-IV.pptx
 [Logical Agents]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
 [Inference in First Order Logic]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
 
-[Decision Networks and VPI]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[Hidden Markov Models]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[Particle filtering]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[ML: Naïve Bayes]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[ML: Perceptrons and Logistic Regression]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[ML: Perceptrons, Logit]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[ML: Optimization]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[ML: Neural Nets]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
-[Advanced Applications: Games and Robotics]: https://www.dropbox.com/s/9rps3i3ad3noljn/fa21-lec24--games-and-robotics.pptx?dl=0
-[Conclusion]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/
+[Decision Networks and VPI]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Hidden Markov Models]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Particle filters]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[ML: Naïve Bayes]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[ML: Perceptrons and Logistic Regression]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[ML: Perceptrons, Logit]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[ML: Optimization]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[ML: Neural Nets]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Advanced Applications: Games and Robotics]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Conclusion]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
 
 <!-- MISC LINKS -->
 [Jordan 2.1]: https://github.com/williamdemeo/cs370-spring2022/tree/master/notes/chapter2.pdf
