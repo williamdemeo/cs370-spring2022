@@ -30,34 +30,32 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 | **5**    | 15 Feb   | [Adversarial Search II][]         | 16.1--16.3       |                                          |                       | [Game Trees II (YouTube)][]     | [Note 4: Nondeterministic Search][] | |
 |          | 18 Feb   | [Markov Decision Processes I][]   | 17.1--17.3       | [HW 5][] MDP, due Wed 2 Mar 23:59        | [Project 1][] **due** | [MDP I (YouTube)][]             |                    | |
 | **6**    | 22 Feb   | [Markov Decision Processes II][]  |                  |                                          |                       | [MDP II (YouTube)][]            |                    | |
-|          | 25 Feb   | [Reinforcement Learning I][]      | Ch 21            | [HW 6][] RL, due Wed 9 Mar 23:59         |                       | [RL I (YouTube)][]              | [Note 5: Reinforcement Learning][] | |
+|          | 25 Feb   | [Reinforcement Learning I][]      | Ch 22            | [HW 6][] RL, due Wed 9 Mar 23:59         |                       | [RL I (YouTube)][]              | [Note 5: Reinforcement Learning][] | |
 | **7**    | 1 Mar    | [Reinforcement Learning II][]     | Ch 22            |                                          |                       | [RL II (YouTube)][]             |                    | |
-|          | 4 Mar    | [Probability][]                   | 13.1--13.5       | [HW 7][] Prob, due Wed 30 Mar 23:59      | [Project 2][] **due** | [Probability (YouTube)][]       |                    | |
-| **8**    | 8 Mar    | [Bayes Nets I][]                  | 14.1, 14.2       |                                          |                       | [Bayes Nets (YouTube)][]        | [Note 5: Bayes Nets][] | [Note 6 (Fa '18)][] |
-|          | 11 Mar   | [Bayes Nets II][]                 | 14.4             | [HW 8][] Bayes Nets, due Wed 6 Apr 23:59 |                       | [BN: independence (YouTube)][]  |                    | |
+|          | 4 Mar    | [Probability][]                   | 12.1--13.5       | [HW 7][] Prob, due Wed 30 Mar 23:59      | [Project 2][] **due** | [Probability (YouTube)][]       |                    | |
+| **8**    | 8 Mar    | [Bayes Nets I][]                  | 13.1, 13.2       |                                          |                       | [Bayes Nets (YouTube)][]        | [Note 5: Bayes Nets][] | [Note 6 (Fa '18)][] |
+|          | 11 Mar   | [Bayes Nets II][]                 | 13.3             | [HW 8][] Bayes Nets, due Wed 6 Apr 23:59 |                       | [BN: independence (YouTube)][]  |                    | |
 | **9**    | 15 Mar   | Spring Recess                     |                  |                                          |                       |                                 |                    | |
 |          | 18 Mar   | Spring Recess                     | [Jordan 2.1][]  (optional reading) |                        |                       |                                 |                    | |
 | **10**   | 22 Mar   | Review                            |                  |                                          |                       |                                 |                    | |
 |          | 25 Mar   | EXAM (scope: 18 Jan--11 Mar)      |                  |                                          |                       |                                 |                    | |
-| **11**   | 29 Mar   | [Bayes Nets III][]                | 14.1, 14.2, 14.4 |                                          |                       | [BN: inference (YouTube)][]     |                    | |
-|          | 1 Apr    | [Bayes Nets IV][]                 | 14.4-5           | [HW 9][]. HMM; due Wed 13 Apr 23:59      | [Project 3][] **due** | [BN: sampling (YouTube)][]      |                    | |
-| **12**   | 5 Apr    | [Hidden Markov Models][]          | 16.5, 16.6       |                                          |                       | [HMM (YouTube)][]               | [Note 6: HMM][]    |  [Note 8 (Fa '18)][] |
-|          | 8 Apr    | [Logical Agents][]                | Ch 7             | [HW 10][]. Logic; due Wed 20 Apr 23:59   |                       | [edX AI wk10: Logical Agents][] | [Note 4: Logical Agents][] | |
-| **13**   | 12 Apr   | [Inference in First Order Logic][] | Ch 8, 9         |                                          |                       |                                 |                    | |
-|          | 15 Apr   | Good Friday (no classes)          | 19.6, 19.7       | [HW 11][]. ML; due Wed 27 May 23:59      |                       |                                 |                    | |
-| **14**   | 19 Apr   | [ML: Naïve Bayes][]               | 20.1, 20.2       |                                          |                       | [ML: Naive Bayes (YouTube)][]   |  [Note 9: ML][]    | |
-|          | 22 Apr   | [ML: Perceptrons, Logit][]        | 18.6.3, 18.8     |                                          | [Project 4][] **due** | [ML: Perceptrons, Logit (YouTube)][] |               | |
-| **15**   | 26 Apr   | [ML: Optimization][]              | 18.6.3, 18.8     |                                          |                       |                                 | [Note 10: Neural Nets][] | |
-|          | 29 Apr   | [ML: Neural Nets][]               |                  |                                          |                       | [ML: Neural Nets (YouTube)][]   |                    | |
-| **16**   | 3 May    | [Conclusion][]                    |                  |                                          |                       |                                 |                    | |
+| **11**   | 29 Mar   | [Bayes Nets III][]                | 13.4             |                                          |                       | [BN: inference (YouTube)][]     |                    | |
+|          | 1 Apr    | (sick day)                        |                  | [HW 9][]. HMM; due Wed 13 Apr 23:59      | [Project 3][] **due** |                                 |                    | |
+| **12**   | 5 Apr    | [Bayes Nets IV][]                 | 13.5             |                                          |                       | [BN: sampling (YouTube)][]      |                    | |
+|          | 8 Apr    | [Decision Networks and VPI][]     | 16.5, 16.6       | [HW 10][]. TBA; due Wed 20 Apr 23:59     |                       | [Decision Networks (YouTube)][] | [Note 7: Decision Networks][] |
+| **13**   | 12 Apr   | [Hidden Markov Models][]          | 14.2, 14,3       |                                          |                       | [HMM (YouTube)][]               | [Note 6: HMM][]    |  [Note 8 (Fa '18)][] |
+|          | 15 Apr   | Good Friday (no classes)          |                  | [HW 11][]. TBA; due Wed 27 Apr 23:59     |                       |                                 |                    | |
+| **14**   | 19 Apr   | [Particle filters][]              | 14.4, 14.5       |                                          |                       | [Particle filters (YouTube)][]  |                    | |
+|          | 22 Apr   | [ML: Naïve Bayes][]               | 20.1, 20.2       |                                          | [Project 4][] **due** | [ML: Naive Bayes (YouTube)][]   |  [Note 9: ML][]    | |
+| **15**   | 26 Apr   | [ML: Perceptrons, Logit][]        | 19.6, 19.7       |                                          |                       | [ML: Perceptrons, Logit (YouTube)][] |               | |
+|          | 29 Apr   | [ML: Optimization][]              | 18.6.3, 18.8     |                                          |                       |                                 | [Note 10: Neural Nets][] | |
+| **16**   | 3 May    | [ML: Neural Nets][]               | Ch 21            |                                          |                       | [ML: Neural Nets (YouTube)][]   |                    | |
 |          | 4 May    | (reading day)                     |                  |                                          |                       |                                 |                    | |
 |          | 6 May    | (reading day)                     |                  |                                          |                       |                                 |                    | |
 |          | 6 May    | (final exams begin)               |                  |                                          |                       |                                 |                    | |
 |          | 12 May   | (final exams end)                 |                  |                                          |                       |                                 |                    | |
 |          | 14 May   | (final grades due)                |                  |                                          |                       |                                 |                    | |
 
-
-**Remarks**. The AI course at UC Berkeley sometimes covers Decision Networks and Particle Filtering.  In our class, we will omit these topics and instead cover Logical Agents and Inference in First Order Logic.  However, students who wish to study Decision Networks and Particle Filtering on their own are advised to watch the CS188 lecture ([Decision Networks (YouTube)][]) and read the CS188 notes ([Note 7: Decision Networks][]) covering these topics.
 
 
 <!-- LINKS TO LECTURE NOTES -->
@@ -127,7 +125,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [BN: sampling (YouTube)]: https://youtu.be/kGngCS-1kjU
 [Decision Networks (YouTube)]: https://youtu.be/19sr7yKV56I
 [HMM (YouTube)]: https://youtu.be/eCZLhZu_U1I
-[HMM Apps (YouTube)]: https://youtu.be/pNam9hbwg4g
+[Particle filters (YouTube)]: https://youtu.be/pNam9hbwg4g
 [ML: Naive Bayes (YouTube)]: https://youtu.be/1nOb0vwWkAE
 [ML: Neural Nets (YouTube)]: https://youtu.be/LERtLI2h_nQ
 [ML: Perceptrons, Logit (YouTube)]: https://www.youtube.com/watch?v=UNr9gHyOnWA
