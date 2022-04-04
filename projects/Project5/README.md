@@ -233,24 +233,24 @@ logical simplification, just put them in a list in this order, and
 return the list conjoined. Each element of your list should correspond
 to each of the three sentences.
 
-A `∨` B
+`A ∨ B`
 
-`¬` A `↔` (`¬` B `∨` C)
+`¬ A ↔ (¬ B ∨ C)`
 
-`¬` A `∨` `¬` B `∨` C
+`¬ A ∨ ¬ B ∨ C`
 
 `sentence2()`: Create one `Expr` instance that represents the
 proposition that the following four sentences are true. Again, do not do
 any logical simplification, just put them in a list in this order, and
 return the list conjoined.
 
-C `↔` (B `∨` D)
+`C ↔ (B ∨ D)`
 
-A `→` (`¬` B `∧` `¬` D)
+`A → (¬ B ∧ ¬ D)`
 
-`¬` (B `∧` `¬` C) `→` A
+`¬ (B ∧ ¬ C) → A
 
-`¬` D `→` C
+`¬ D → C`
 
 `sentence3()`: Using the `PropSymbolExpr` constructor, create symbols
 named `PacmanAlive_0`, `PacmanAlive_1`, `PacmanBorn_0`, and
