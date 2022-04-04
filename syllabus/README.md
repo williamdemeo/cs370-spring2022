@@ -134,19 +134,19 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 
 <!-- LINKS TO LECTURE SLIDES -->
 [Intro to AI (UCB version)]: https://inst.eecs.berkeley.edu/~cs188/sp22/assets/slides/Lecture1.pptx
-[Agents and Environments]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec02-AgentsAndEnvironments.pptx
-[Uninformed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec03-Search.pptx
-[Informed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec04-InformedSearch.pptx
-[A* Search and Heuristics]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec05-AstarSearchAndHeuristics.pptx
-[CSP I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec06-CSP-I.pptx 
-[CSP II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec07-CSP-II.pptx
-[Adversarial Search I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec08-AdversarialSearch-I.pptx
-[Adversarial Search II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec09-AdversarialSearch-II.pptx
-[Markov Decision Processes I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec10-MDP-I.pptx
-[Markov Decision Processes II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec11-MDP-II.pptx
-[Reinforcement Learning I]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec12-RL-I.pptx
-[Reinforcement Learning II]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec13-RL-II.pptx
-[Probability]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec14-Probability.pptx
+[Agents and Environments]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec02-AgentsAndEnvironments.pptx
+[Uninformed Search]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec03-Search.pptx
+[Informed Search]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec04-InformedSearch.pptx
+[A* Search and Heuristics]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec05-AstarSearchAndHeuristics.pptx
+[CSP I]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec06-CSP-I.pptx 
+[CSP II]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec07-CSP-II.pptx
+[Adversarial Search I]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec08-AdversarialSearch-I.pptx
+[Adversarial Search II]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec09-AdversarialSearch-II.pptx
+[Markov Decision Processes I]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec10-MDP-I.pptx
+[Markov Decision Processes II]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec11-MDP-II.pptx
+[Reinforcement Learning I]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec12-RL-I.pptx
+[Reinforcement Learning II]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec13-RL-II.pptx
+[Probability]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec14-Probability.pptx
 [Bayes Nets I]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec15-BayesNets-I.pptx
 [Bayes Nets II]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec16-BayesNets-II.pptx
 [Bayes Nets III]: https://github.com/williamdemeo/cs370-spring2022/raw/master/lecture/CS370-Lec17-BayesNets-III.pptx
