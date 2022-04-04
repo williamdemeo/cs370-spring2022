@@ -127,9 +127,9 @@ and demoralizing. But, I don\'t know when or how to help unless you ask.
 
 ## The Expr Class
 
-In the first part of this project, you will be working with the `Expr` class defined in `logic.py` to build propositional logic sentences. An `Expr` object is implemented as a tree with logical operators (∧, ∨, ¬, →, `↔`) at each node and with literals (A, B, C) at the leaves. Here is an example sentence and its representation:
+In the first part of this project, you will be working with the `Expr` class defined in `logic.py` to build propositional logic sentences. An `Expr` object is implemented as a tree with logical operators (`∧`, `∨`, `¬`, `→`, `↔`) at each node and with literals (A, B, C) at the leaves. Here is an example sentence and its representation:
 
-(A ∧ B) `↔` (¬ C ∨ D)
+(A `∧` B) `↔` (`¬` C `∨` D)
 
 ![Example logic tree.](img/logic_tree.png)
 
@@ -139,13 +139,13 @@ To instantiate a symbol named \'A\', call the constructor like this:
 
 The `Expr` class allows you to use Python operators to build up these expressions. The following are the available Python operators and their meanings:
 
--   `~A`: ¬ A
--   `A & B`: A ∧ B
--   `A | B`: A ∨ B
--   `A >> B`: A → B
+-   `~A`: `¬` A
+-   `A & B`: A `∧` B
+-   `A | B`: A `∨` B
+-   `A >> B`: A `→` B
 -   `A % B`: A `↔` B
 
-So to build the expression A ∧ B, you would type this:
+So to build the expression A `∧` B, you would type this:
 
 `A = Expr('A')`
 
@@ -233,24 +233,24 @@ logical simplification, just put them in a list in this order, and
 return the list conjoined. Each element of your list should correspond
 to each of the three sentences.
 
-A ∨ B
+A `∨` B
 
-¬ A `↔` (¬ B ∨ C)
+`¬` A `↔` (`¬` B `∨` C)
 
-¬ A ∨ ¬ B ∨ C
+`¬` A `∨` `¬` B `∨` C
 
 `sentence2()`: Create one `Expr` instance that represents the
 proposition that the following four sentences are true. Again, do not do
 any logical simplification, just put them in a list in this order, and
 return the list conjoined.
 
-C `↔` (B ∨ D)
+C `↔` (B `∨` D)
 
-A → (¬ B ∧ ¬ D)
+A `→` (`¬` B `∧` `¬` D)
 
-¬ (B ∧ ¬ C) → A
+`¬` (B `∧` `¬` C) `→` A
 
-¬ D → C
+`¬` D `→` C
 
 `sentence3()`: Using the `PropSymbolExpr` constructor, create symbols
 named `PacmanAlive_0`, `PacmanAlive_1`, `PacmanBorn_0`, and
@@ -293,7 +293,7 @@ it means for something to be unstatisfiable.
 `plTrueInverse(assignments, inverse_statement)`: Returns True if and
 only if the (not inverse\_statement) is True given assignments.
 
-Before you continue, try instantiating a small sentence, e.g. A ∧ B → C,
+Before you continue, try instantiating a small sentence, e.g. A `∧` B `→` C,
 and call `to_cnf` on it. Inspect the output and make sure you understand
 it (refer to AIMA section 7.5.2 for details on the algorithm `to_cnf`
 implements).
@@ -594,7 +594,7 @@ Iterate over `non_outer_wall_coords`.
 -   Add to KB: (x, y) locations where Pacman is provably not at, at
     time t.
 -   Hint: check if the results of entails contradict each other (i.e. KB
-    entails A and entails ¬ A). If they do, print feedback to help
+    entails A and entails `¬` A). If they do, print feedback to help
     debugging.
 
 ### Find provable wall locations with updated KB
@@ -608,7 +608,7 @@ Iterate over `non_outer_wall_coords`.
 -   Add to KB and update `known_map`: (x, y) locations where there is
     provably not a wall.
 -   Hint: check if the results of entails contradict each other (i.e. KB
-    entails A and entails ¬ A). If they do, print feedback to help
+    entails A and entails `¬` A). If they do, print feedback to help
     debugging.
 
 **Observation**. We add known Pacman locations and walls to KB so that we
@@ -640,8 +640,8 @@ it can be at each timestep by implementing:
 
 For Pacman to make use of sensor information during localization, you
 will use two methods already implemented for you: `sensorAxioms` \--
-i.e. Blocked\[Direction\]\_t `↔` \[(P\[x\_i, y\_j\]\_t ∧ WALL\[x\_i+dx,
-y\_j+dy\]) ∨ (P\[x\_i\', y\_j\'\]\_t ∧ WALL\[x\_i\'+dx, y\_j\'+dy\])
+i.e. Blocked\[Direction\]\_t `↔` \[(P\[x\_i, y\_j\]\_t `∧` WALL\[x\_i+dx,
+y\_j+dy\]) `∨` (P\[x\_i\', y\_j\'\]\_t `∧` WALL\[x\_i\'+dx, y\_j\'+dy\])
 \... \] \-- and `fourBitPerceptRules`, which translate the percepts at
 time t into logic sentences.
 
