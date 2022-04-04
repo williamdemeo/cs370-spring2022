@@ -318,7 +318,7 @@ Implement the following three functions in `logicPlan.py`:
     Each input expression will be a literal. HINT: Use
     `itertools.combinations`. If you have *n* literals, and at most
     one is true, your resulting CNF expression should be a conjunction
-    of $$n \choose 2$$ clauses.
+    of n choose 2 clauses (i.e., n!/((n-2)!2!) clauses).
 -   `exactlyOne(literals)`: Return a single expression (Expr) in CNF
     that is true only if exactly one expression in the input list is
     true. Each input expression will be a literal. If you decide to call
