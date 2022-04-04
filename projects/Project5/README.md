@@ -12,6 +12,28 @@ Food is good AND ghosts are bad,\
 Spock would be so proud
 
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Introduction](#introduction)
+- [The Expr Class](#the-expr-class)
+- [Prop Symbol Names (Important!)](#prop-symbol-names-important)
+- [SAT Solver Setup](#sat-solver-setup)
+- [Question 1 (2 points): Logic Warm-up](#question-1-2-points-logic-warm-up)
+- [Question 2 (2 points): Logic Workout](#question-2-2-points-logic-workout)
+- [Question 3 (4 points): Pacphysics and Satisfiability](#question-3-4-points-pacphysics-and-satisfiability)
+- [Question 4 (4 points): Path Planning with Logic](#question-4-4-points-path-planning-with-logic)
+- [Question 5 (3 points): Eating All the Food](#question-5-3-points-eating-all-the-food)
+- [Helper Functions for the rest of the Project](#helper-functions-for-the-rest-of-the-project)
+- [Question 6 (4 points): Localization](#question-6-4-points-localization)
+- [Question 7 (3 points): Mapping](#question-7-3-points-mapping)
+- [Question 8 (4 points): SLAM](#question-8-4-points-slam)
+
+<!-- markdown-toc end -->
+
+
+
+
 ## Introduction
 
 In this project, you will use/write simple Python functions that
@@ -39,63 +61,43 @@ assignment, and some of which you can ignore. You can download all the
 code and supporting files as a [zip archive](logic.zip).
 
 
-### Files you will edit
-
-  ---------------- --------------------------------------------------------------
-  `logicPlan.py`   Where you will put your code for the various logical agents.
-  ---------------- --------------------------------------------------------------
-
-### Files you might want to look at
-
-`logic.py`
-
-Propsitional logic code originally from
-https://code.google.com/p/aima-python/ with modifications for our
-project. There are several useful utility functions for working with
-logic in here.
-
-`logicAgents.py`
-
-The file that defines in logical planning form the two specific problems
-that Pacman will encounter in this project.
-
-`pycosat_test.py`
-
-Quick test main function that checks that the pycosat module is
-installed correctly.
-
-`game.py`
-
-The internal simulator code for the Pacman world. The only thing you
-might want to look at in here is the Grid class.
-
-`test_cases/`
-
-Directory containing the test cases for each question
+| Files you\'ll edit                     | Description                                                   |
+|----------------------------------------|---------------------------------------------------------------|
+| `logicPlan.py`  |  Where you will put your code for the various logical agents. |
 
 
-### Files you will not edit
+| Files you might want to look at        |   Description                                                      |
+|----------------------------------------|--------------------------------------------------------------------|
+| `logic.py`                             | Propsitional logic code originally from [aima-python](https://code.google.com/p/aima-python/) with modifications for our project. There are several useful utility functions for working with logic in here. |
+| `logicAgents.py` | The file that defines in logical planning form the two specific problems that Pacman will encounter in this project. |
+| `pycosat_test.py` | Quick test main function that checks that the pycosat module is installed correctly. |
+| `game.py` | The internal simulator code for the Pacman world. The only thing you might want to look at in here is the Grid class. |
+| `test_cases/` | Directory containing the test cases for each question |
 
-  ---------------------------- ----------------------------------------------------------
-  `pacman.py`                  The main file that runs Pacman games.
-  `logic_util.py`              Utility functions for logic.py
-  `util.py`                    Utility functions primarily for other projects.
-  `logic_planTestClasses.py`   Project specific autograding test classes
-  `graphicsDisplay.py`         Graphics for Pacman
-  `graphicsUtils.py`           Support for Pacman graphics
-  `textDisplay.py`             ASCII graphics for Pacman
-  `ghostAgents.py`             Agents to control ghosts
-  `keyboardAgents.py`          Keyboard interfaces to control Pacman
-  `layout.py`                  Code for reading layout files and storing their contents
-  `autograder.py`              Project autograder
-  `testParser.py`              Parses autograder test and solution files
-  `testClasses.py`             General autograding test classes
-  ---------------------------- ----------------------------------------------------------
+
+| Files you can ignore           | Description |
+|--------------------------------|-------------|
+|  `pacman.py` |                   The main file that runs Pacman games. |
+|  `logic_util.py` |              Utility functions for logic.py |
+|  `util.py` |                    Utility functions primarily for other projects. |
+|  `logic_planTestClasses.py` |   Project specific autograding test classes |
+|  `graphicsDisplay.py` |         Graphics for Pacman |
+|  `graphicsUtils.py` |           Support for Pacman graphics |
+|  `textDisplay.py` |             ASCII graphics for Pacman |
+|  `ghostAgents.py` |             Agents to control ghosts |
+|  `keyboardAgents.py` |          Keyboard interfaces to control Pacman |
+|  `layout.py` |                  Code for reading layout files and storing their contents |
+|  `autograder.py` |              Project autograder |
+|  `testParser.py` |              Parses autograder test and solution files |
+|  `testClasses.py` |             General autograding test classes |
+
+
 
 **Files to Edit and Submit:** You will fill in portions of
-`logicPlan.py` during the assignment. You should submit these files with
+`logicPlan.py` during the assignment. You should submit this files with
 your code and comments. Please *do not* change the other files in this
 distribution or submit any of our original files other than these files.
+
 
 **Evaluation:** Your code will be autograded for technical correctness.
 Please *do not* change the names of any provided functions or classes
@@ -665,7 +667,7 @@ To test and debug your code run:
 python autograder.py -q q6
 ```
 
-### Question 7 (3 points): Mapping
+## Question 7 (3 points): Mapping
 
 Pacman now knows his starting location, but does not know where the
 walls are (other than the fact that the border of outer coordinates are
