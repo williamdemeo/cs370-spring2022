@@ -235,7 +235,7 @@ to each of the three sentences.
 
 A ∨ B
 
-¬ A ↔ (¬ B ∨ C)
+¬ A ⟷ (¬ B ∨ C)
 
 ¬ A ∨ ¬ B ∨ C
 
