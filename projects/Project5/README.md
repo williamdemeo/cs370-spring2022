@@ -248,7 +248,7 @@ return the list conjoined.
 
 `A → (¬ B ∧ ¬ D)`
 
-`¬ (B ∧ ¬ C) → A
+`¬ (B ∧ ¬ C) → A`
 
 `¬ D → C`
 
