@@ -293,7 +293,7 @@ it means for something to be unstatisfiable.
 `plTrueInverse(assignments, inverse_statement)`: Returns True if and
 only if the (not inverse\_statement) is True given assignments.
 
-Before you continue, try instantiating a small sentence, e.g. A `∧` B `→` C,
+Before you continue, try instantiating a small sentence, e.g. `A ∧ B → C`,
 and call `to_cnf` on it. Inspect the output and make sure you understand
 it (refer to AIMA section 7.5.2 for details on the algorithm `to_cnf`
 implements).
@@ -316,9 +316,9 @@ Implement the following three functions in `logicPlan.py`:
 -   `atMostOne(literals)`: Return a single expression (Expr) in CNF that
     is true only if at most one expression in the input list is true.
     Each input expression will be a literal. HINT: Use
-    `itertools.combinations`. If you have \`n\` literals, and at most
+    `itertools.combinations`. If you have *n* literals, and at most
     one is true, your resulting CNF expression should be a conjunction
-    of \$n \\choose 2\$ clauses.
+    of $$n \choose 2$$ clauses.
 -   `exactlyOne(literals)`: Return a single expression (Expr) in CNF
     that is true only if exactly one expression in the input list is
     true. Each input expression will be a literal. If you decide to call
