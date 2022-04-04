@@ -129,7 +129,7 @@ and demoralizing. But, I don\'t know when or how to help unless you ask.
 
 In the first part of this project, you will be working with the `Expr` class defined in `logic.py` to build propositional logic sentences. An `Expr` object is implemented as a tree with logical operators (`∧`, `∨`, `¬`, `→`, `↔`) at each node and with literals (A, B, C) at the leaves. Here is an example sentence and its representation:
 
-(A `∧` B) `↔` (`¬` C `∨` D)
+`(A ∧ B) ↔ (¬ C ∨ D)`
 
 ![Example logic tree.](img/logic_tree.png)
 
@@ -139,13 +139,13 @@ To instantiate a symbol named \'A\', call the constructor like this:
 
 The `Expr` class allows you to use Python operators to build up these expressions. The following are the available Python operators and their meanings:
 
--   `~A`: `¬` A
--   `A & B`: A `∧` B
--   `A | B`: A `∨` B
--   `A >> B`: A `→` B
--   `A % B`: A `↔` B
+-   `~A` : `¬ A`
+-   `A & B` : `A ∧ B
+-   `A | B` : `A ∨ B`
+-   `A >> B`: `A → B`
+-   `A % B` : `A ↔ B`
 
-So to build the expression A `∧` B, you would type this:
+So to build the expression `A ∧ B`, you would type this:
 
 `A = Expr('A')`
 
@@ -212,7 +212,7 @@ python pycosat_test.py
 This should output:
 
 ```
-\[1, -2, -3, -4, 5\]
+[1, -2, -3, -4, 5]
 ```
 
 Please let me know if you have issues with this setup. This is critical
