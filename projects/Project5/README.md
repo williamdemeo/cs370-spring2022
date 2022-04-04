@@ -753,9 +753,3 @@ python autograder.py -q q8
 <!-- In order to submit your project, run `python submission_autograder.py` and submit the -->
 <!-- generated token file `logic.token` to the `Project 5` assignment on Gradescope. -->
 
-\
-\
-\
-\
-\
-\
