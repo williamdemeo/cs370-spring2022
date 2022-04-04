@@ -1,7 +1,7 @@
-Project 4: Logic and Classical Planning
+Project 5: Logic and Classical Planning
 =======================================
 
-Due: **Friday 29 April 11:59 pm**
+Due: **Friday ??/?? 11:59 pm**
 
 ------------------------------------------------------------------------
 
@@ -746,10 +746,10 @@ takes 3.5 minutes to run to completion on a good laptop processor):
 python autograder.py -q q8
 ```
 
-### Submission
+<!-- ### Submission -->
 
-In order to submit your project, run `python submission_autograder.py` and submit the
-generated token file `logic.token` to the `Project 3` assignment on Gradescope.
+<!-- In order to submit your project, run `python submission_autograder.py` and submit the -->
+<!-- generated token file `logic.token` to the `Project 5` assignment on Gradescope. -->
 
 \
 \
