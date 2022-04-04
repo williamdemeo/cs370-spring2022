@@ -93,13 +93,13 @@ code and supporting files as a [zip archive](logic.zip).
 
 
 
-**Files to Edit and Submit:** You will fill in portions of
+**Files to Edit and Submit**. You will fill in portions of
 `logicPlan.py` during the assignment. You should submit this files with
 your code and comments. Please *do not* change the other files in this
 distribution or submit any of our original files other than these files.
 
 
-**Evaluation:** Your code will be autograded for technical correctness.
+**Evaluation**. Your code will be autograded for technical correctness.
 Please *do not* change the names of any provided functions or classes
 within the code, or you will wreak havoc on the autograder. However, the
 correctness of your implementation \-- not the autograder\'s judgements
@@ -107,7 +107,7 @@ correctness of your implementation \-- not the autograder\'s judgements
 and grade assignments individually to ensure that you receive due credit
 for your work.
 
-**Academic Dishonesty:** I will be checking your code against other
+**Academic Dishonesty**. I will be checking your code against other
 submissions in the class for logical redundancy. If you copy someone
 else\'s code and submit it with minor changes, I will know. These cheat
 detectors are quite hard to fool, so please don\'t try. I trust you all
@@ -115,7 +115,11 @@ to submit your own work only; *please* don\'t let me down. If you do,
 it will constitute a violation of the Student Code of Conduct and I will 
 be forced to refer you to the Dean of Students for disciplinary action.
 
-**Getting Help:** You are not alone! If you find yourself stuck on
+**Teamwork**. You are allowed to work with one other person on this project. If you choose to work with a partner, 
+then before submitting your solution on Gradescope, you must **include your partner's name** in the python files you submit. 
+If you fail to do so, and your code matches that of another student, this will be in violation of the Student Code of Conduct.
+
+**Getting Help**. You are not alone! If you find yourself stuck on
 something, contact me for help. Office hours and the discussion forum are there for your support; please use them. If you
 can\'t make our office hours, let me know and we can schedule an appointment.
 I want these projects to be rewarding and instructional, not frustrating
