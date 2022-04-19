@@ -34,21 +34,21 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 | **7**    | 1 Mar    | [Reinforcement Learning II][]     | Ch 22            |                                          |                       | [RL II (YouTube)][]             |                    | |
 |          | 4 Mar    | [Probability][]                   | 12.1--13.5       | [HW 7][] Prob, due Wed 30 Mar 23:59      | [Project 2][] **due** | [Probability (YouTube)][]       |                    | |
 | **8**    | 8 Mar    | [Bayes Nets I][]                  | 13.1, 13.2       |                                          |                       | [Bayes Nets (YouTube)][]        | [Note 5: Bayes Nets][] | [Note 6 (Fa '18)][] |
-|          | 11 Mar   | [Bayes Nets II][]                 | 13.3             | [HW 8][] Bayes Nets, due Wed 6 Apr 23:59 |                       | [BN: independence (YouTube)][]  |                    | |
+|          | 11 Mar   | [Bayes Nets II][]                 | 13.3             | [HW 8][] Bayes Nets, due ~Wed 6~ Fri 8 Apr 23:59 |               | [BN: independence (YouTube)][]  |                    | |
 | **9**    | 15 Mar   | Spring Recess                     |                  |                                          |                       |                                 |                    | |
 |          | 18 Mar   | Spring Recess                     | [Jordan 2.1][]  (optional reading) |                        |                       |                                 |                    | |
 | **10**   | 22 Mar   | Review                            |                  |                                          |                       |                                 |                    | |
 |          | 25 Mar   | EXAM (scope: 18 Jan--11 Mar)      |                  |                                          |                       |                                 |                    | |
 | **11**   | 29 Mar   | [Bayes Nets III][]                | 13.4             |                                          |                       | [BN: inference (YouTube)][]     |                    | |
-|          | 1 Apr    | (sick day)                        |                  | [HW 9][]. HMM; due Wed 13 Apr 23:59      | [Project 3][] **due** |                                 |                    | |
-| **12**   | 5 Apr    | [Bayes Nets IV][]                 | 13.5             |                                          |                       | [BN: sampling (YouTube)][]      |                    | |
-|          | 8 Apr    | [Decision Networks and VPI][]     | 16.5, 16.6       | [HW 10][]. TBA; due Wed 20 Apr 23:59     |                       | [Decision Networks (YouTube)][] | [Note 7: Decision Networks][] |
+|          | 1 Apr    | (sick day)                        |                  |                                          | [Project 3][] **due** |                                 |                    | |
+| **12**   | 5 Apr    | [Bayes Nets IV][]                 | 13.5             | [HW 9][]. HMM; due ~Wed 13~ Fri 22 Apr 23:59   |                 | [BN: sampling (YouTube)][]      |                    | |
+|          | 8 Apr    | [Decision Networks and VPI][]     | 16.5, 16.6       |                                          |                       | [Decision Networks (YouTube)][] | [Note 7: Decision Networks][] |
 | **13**   | 12 Apr   | [Hidden Markov Models][]          | 14.2, 14,3       |                                          |                       | [HMM (YouTube)][]               | [Note 6: HMM][]    |  [Note 8 (Fa '18)][] |
-|          | 15 Apr   | Good Friday (no classes)          |                  | [HW 11][]. TBA; due Wed 27 Apr 23:59     |                       |                                 |                    | |
-| **14**   | 19 Apr   | [Particle filters][]              | 14.4, 14.5       |                                          |                       | [Particle filters (YouTube)][]  |                    | |
-|          | 22 Apr   | [ML: Naïve Bayes][]               | 20.1, 20.2       |                                          | [Project 4][] **due** | [ML: Naive Bayes (YouTube)][]   |  [Note 9: ML][]    | |
+|          | 15 Apr   | Good Friday (no classes)          |                  |                                          |                       |                                 |                    | |
+| **14**   | 19 Apr   | [Particle filters][]              | 14.4, 14.5       | [HW 10][]. TBA; due Wed 27 Apr 23:59     |                       | [Particle filters (YouTube)][]  |                    | |
+|          | 22 Apr   | [ML: Naïve Bayes][]               | 20.1, 20.2       |                                          |                       | [ML: Naive Bayes (YouTube)][]   |  [Note 9: ML][]    | |
 | **15**   | 26 Apr   | [ML: Perceptrons, Logit][]        | 19.6, 19.7       |                                          |                       | [ML: Perceptrons, Logit (YouTube)][] |               | |
-|          | 29 Apr   | [ML: Optimization][]              | 18.6.3, 18.8     |                                          |                       |                                 | [Note 10: Neural Nets][] | |
+|          | 29 Apr   | [ML: Optimization][]              | 18.6.3, 18.8     |                                          | [Project 4][] **due** |                                 | [Note 10: Neural Nets][] | |
 | **16**   | 3 May    | [ML: Neural Nets][]               | Ch 21            |                                          |                       | [ML: Neural Nets (YouTube)][]   |                    | |
 |          | 4 May    | (reading day)                     |                  |                                          |                       |                                 |                    | |
 |          | 6 May    | (reading day)                     |                  |                                          |                       |                                 |                    | |
@@ -154,9 +154,9 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 [Logical Agents]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
 [Inference in First Order Logic]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
 
-[Decision Networks and VPI]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
-[Hidden Markov Models]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
-[Particle filters]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
+[Decision Networks and VPI]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec19-DecisionNetworks.pptx
+[Hidden Markov Models]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec20-HMM.pptx
+[Particle filters]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec21-HMM-II.pptx
 [ML: Naïve Bayes]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
 [ML: Perceptrons and Logistic Regression]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
 [ML: Perceptrons, Logit]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/dne.md
