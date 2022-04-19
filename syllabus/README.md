@@ -45,7 +45,7 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 |          | 8 Apr    | [Decision Networks and VPI][]     | 16.5, 16.6       |                                          |                       | [Decision Networks (YouTube)][] | [Note 7: Decision Networks][] |
 | **13**   | 12 Apr   | [Hidden Markov Models][]          | 14.2, 14,3       |                                          |                       | [HMM (YouTube)][]               | [Note 6: HMM][]    |  [Note 8 (Fa '18)][] |
 |          | 15 Apr   | Good Friday (no classes)          |                  |                                          |                       |                                 |                    | |
-| **14**   | 19 Apr   | [Particle filters][]              | 14.4, 14.5       | [HW 10][]. TBA; due Wed 27 Apr 23:59     |                       | [Particle filters (YouTube)][]  |                    | |
+| **14**   | 19 Apr   | [Particle filters][]              | 14.4, 14.5       | [HW 10][]. Particle filters; due Wed 27 Apr 23:59     |                       | [Particle filters (YouTube)][]  |                    | |
 |          | 22 Apr   | [ML: Naïve Bayes][]               | 20.1, 20.2       |                                          |                       | [ML: Naive Bayes (YouTube)][]   |  [Note 9: ML][]    | |
 | **15**   | 26 Apr   | [ML: Perceptrons, Logit][]        | 19.6, 19.7       |                                          |                       | [ML: Perceptrons, Logit (YouTube)][] |               | |
 |          | 29 Apr   | [ML: Optimization][]              | 18.6.3, 18.8     |                                          | [Project 4][] **due** |                                 | [Note 10: Neural Nets][] | |
