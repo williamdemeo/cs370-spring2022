@@ -57,6 +57,23 @@ See the autograder tutorial in Project 0 for more information about
 using the autograder.
 
 
+### Notes about the autograder
+
+For this project, two important things to keep in mind about the autograder are the following.
+
+1.  **Time-out**.  
+    In general, it is possible sometimes for the autograder to time out if running the tests with graphics. To accurately determine whether or not your code is efficient enough, you should run the tests with the `--no-graphics` flag. If the autograder passes with this flag, then you will receive full points, even if the autograder times out with graphics.
+
+2.  **Errors are not always detected immediately**.   
+    One defect of the autograder for this project is that the tests that are run for each part are not very challenging to pass even if your code isn't really correct.
+
+    This "feature" makes debugging against the autograder output very difficult.  For example, you might have a wrong `getBeliefDistribution` function and still pass some part of the assignment with full points. The problems with your `getBeliefDistribution` function can crop up and cause you to fail later parts of the project, even though your code for the later part is correct.
+
+    So, if you believe your code for a given problem is correct and bug free, yet the autograder doesn't like it, you might want to look back at the `getBeliefDistribution` function from previous parts and make sure it's giving you what you expect.
+
+
+
+
 ### The Python source code
 
 The code for this project contains the following files, available as a [zip archive](tracking.zip).
@@ -125,20 +142,6 @@ python autograder.py -t test_cases/q1/1-ObsProb
 
 In general, all test cases can be found inside `test_cases/q*`.
 
-### Important notes about the autograder
-
-For this project, two important things to keep in mind about the autograder are the following.
-
-1.  **Time-out**.  
-    In general, it is possible sometimes for the autograder to time out if running the tests with graphics. To accurately determine whether or not your code is efficient enough, you should run the tests with the `--no-graphics` flag. If the autograder passes with this flag, then you will receive full points, even if the autograder times out with graphics.
-
-2.  **Errors are not always detected immediately**.   
-    One defect of the autograder for this project is that the tests that are run for each part are not very challenging to pass even if your code isn't really correct.
-
-    This "feature" makes debugging against the autograder output very difficult.  For example, you might have a wrong `getBeliefDistribution` function and still pass some part of the assignment with full points. The problems with your `getBeliefDistribution` function can crop up and cause you to fail later parts of the project, even though your code for the later part is correct.
-
-    So, if you believe your code for a given problem is correct and bug free, yet the autograder doesn't like it, you might want to look back at the `getBeliefDistribution` function from previous parts and make sure it's giving you what you expect.
-
 
 ------------------------------------------------------------------------
 
@@ -202,7 +205,7 @@ To test your code and run the autograder for this question:
 python autograder.py -q q1
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -239,7 +242,7 @@ To run the autograder for this question and visualize the output:
 python autograder.py -q q2
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -304,7 +307,7 @@ To run the autograder for this question and visualize the output:
 python autograder.py -q q3
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -348,7 +351,7 @@ To run the autograder for this question and visualize the output:
 python autograder.py -q q4
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -382,7 +385,7 @@ To test your code and run the autograder for this question:
 python autograder.py -q q5
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -411,7 +414,7 @@ To run the autograder for this question and visualize the output:
 python autograder.py -q q6
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -450,7 +453,7 @@ To run the autograder for this question and visualize the output:
 python autograder.py -q q7
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -504,7 +507,7 @@ To run the autograder for this question and visualize the output:
 python autograder.py -q q8
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -553,7 +556,7 @@ To run the autograder for this question and visualize the output:
 python autograder.py -q q9
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Notes about the autograder](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
@@ -607,7 +610,7 @@ To run the autograder for this question and visualize the output:
 python autograder.py -q q10
 ```
 
-As mentioned in the [Important note about autograder time-out](#important-note-about-autograder-time-out) above,
+As mentioned in the [Important notes about autograder time-out](#notes-about-autograder) above,
 to accurately determine whether or not your code is efficient enough, run the test without graphics using the `--no-graphics` flag:
 
 ```
