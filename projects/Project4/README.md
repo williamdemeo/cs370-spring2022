@@ -67,9 +67,7 @@ For this project, two important things to keep in mind about the autograder are 
 2.  **Errors are not always detected immediately**.   
     One defect of the autograder for this project is that the tests that are run for each part are not very challenging to pass even if your code isn't really correct.
 
-    This "feature" makes debugging against the autograder output very difficult.  For example, you might have a wrong `getBeliefDistribution` function and still pass some part of the assignment with full points. The problems with your `getBeliefDistribution` function can crop up and cause you to fail later parts of the project, even though your code for the later part is correct.
-
-    So, if you believe your code for a given problem is correct and bug free, yet the autograder doesn't like it, you might want to look back at the `getBeliefDistribution` function from previous parts and make sure it's giving you what you expect.
+    This "feature" makes debugging against the autograder output very difficult.  For example, you might have a wrong `getBeliefDistribution` function and still pass some part of the assignment with full points. The problems can crop up later and cause you to fail other parts of the project, even though your code for those parts is correct. Therefore, if you believe your code for a given part is correct but the autograder refuses to accept it, you might want to look back at the `getBeliefDistribution` methods from previous parts and make sure they produce the results you expect.
 
 
 
