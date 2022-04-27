@@ -202,13 +202,14 @@ performance.
 
 **All exams take place in our usual classroom**, [KUPF 107][].
 
-+ **MIDTERM EXAM**  
-**Topics**. [Agents and Environments][], [Uninformed Search][], [Informed Search][], [A* Search and Heuristics][], [CSP I][], [CSP II][], [Adversarial Search I][], [Adversarial Search II][], [Markov Decision Processes I][], [Markov Decision Processes II][], [Reinforcement Learning I][], [Reinforcement Learning II][], [Probability][], [Bayes Nets I][]  
-**DATE**. Friday 25 March
++  **MIDTERM EXAM**  
+   **Topics**. [Agents and Environments][], [Uninformed Search][], [Informed Search][], [A* Search and Heuristics][], [CSP I][], [CSP II][], [Adversarial Search I][], [Adversarial Search II][], [Markov Decision Processes I][], [Markov Decision Processes II][], [Reinforcement Learning I][], [Reinforcement Learning II][], [Probability][], [Bayes Nets I][]  
+   **DATE**. Friday 25 March
   
-+ **FINAL EXAM** (cumulative)  
-**DATE**. TBA  
-**TIME**. TBA
++  **FINAL EXAM** (cumulative)  
+   **DATE**. 10 May 2022  
+   **TIME**. 14:30--17:00  
+   **PLACE**. [KUPF][] 202
 
 
 In accordance with university policy, **the final exam must be taken by all students at the scheduled time in the usual classroom.** *Do not make plans which would have you depart campus before the scheduled final exam date.*
@@ -303,6 +304,7 @@ early in the semester in order to have their learning needs appropriately met.
 
 
 [Lean]: https://leanprover.github.io/
+[KUPF]: https://goo.gl/maps/GjhP3cjrMAJSzVFt5
 [KUPF 107]: https://goo.gl/maps/GjhP3cjrMAJSzVFt5
 [Agents and Environments]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec02-AgentsAndEnvironments.pptx
 [Uninformed Search]: https://github.com/williamdemeo/cs370-spring2022/blob/master/lecture/CS370-Lec03-Search.pptx
