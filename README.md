@@ -209,7 +209,7 @@ performance.
 +  **FINAL EXAM** (cumulative)  
    **DATE**. 10 May 2022  
    **TIME**. 14:30--17:00  
-   **PLACE**. [KUPF][] 202
+   **PLACE**. [KUPF][] Rm. 202
 
 
 In accordance with university policy, **the final exam must be taken by all students at the scheduled time in the usual classroom.** *Do not make plans which would have you depart campus before the scheduled final exam date.*

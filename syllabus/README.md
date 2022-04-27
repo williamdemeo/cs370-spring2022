@@ -53,10 +53,12 @@ a [AI YouTube playlist](https://youtube.com/playlist?list=PL5FJyaC2WsVndQJI9QtEh
 |          | 4 May    | (reading day)                     |                  |                                          |                       |                                 |                    | |
 |          | 6 May    | (reading day)                     |                  |                                          |                       |                                 |                    | |
 |          | 6 May    | (final exams begin)               |                  |                                          |                       |                                 |                    | |
-|          | 12 May   | (final exams end)                 |                  |                                          |                       |                                 |                    | |
+|          | 10 May   | **FINAL EXAM** 14:30--17:00 in [KUPF][] Rm. 202 |    |                                          |                       |                                 |                    | |
 |          | 14 May   | (final grades due)                |                  |                                          |                       |                                 |                    | |
 
 
+
+[KUPF]: https://goo.gl/maps/GjhP3cjrMAJSzVFt5
 
 <!-- LINKS TO LECTURE NOTES -->
 
